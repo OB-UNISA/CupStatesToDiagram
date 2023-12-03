@@ -1,0 +1,192 @@
+<svg width="744" height="643" viewBox="0 0 558 482.25" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="translate(2.7054545454545456,431.31846280184664) scale(0.6763636363636364)">
+<title>g</title>
+<polygon fill="white" stroke="transparent" points="-4,4 -4,-566.4 821,-566.4 821,4 -4,4"/>
+<!-- state0 -->
+<g id="node1" class="node">
+<title>state0</title>
+<path fill="white" stroke="black" d="M355,-431.9C355,-431.9 566,-431.9 566,-431.9 572,-431.9 578,-437.9 578,-443.9 578,-443.9 578,-549.9 578,-549.9 578,-555.9 572,-561.9 566,-561.9 566,-561.9 355,-561.9 355,-561.9 349,-561.9 343,-555.9 343,-549.9 343,-549.9 343,-443.9 343,-443.9 343,-437.9 349,-431.9 355,-431.9"/>
+<polygon fill="white" stroke="transparent" points="351,-435.9 351,-557.9 570,-557.9 570,-435.9 351,-435.9"/>
+<polygon fill="black" stroke="transparent" points="353.5,-533.9 353.5,-555.9 568.5,-555.9 568.5,-533.9 353.5,-533.9"/>
+<text text-anchor="start" x="427.39" y="-540.3" font-family="Courier New" font-size="14.00" fill="white">State #0</text>
+<text text-anchor="start" x="356.5" y="-516.3" font-family="Courier New" font-size="14.00">C -&gt; • c C </text>
+<polygon fill="lightgrey" stroke="transparent" points="529.5,-509.9 529.5,-531.9 568.5,-531.9 568.5,-509.9 529.5,-509.9"/>
+<text text-anchor="start" x="532.2" y="-516.3" font-family="Courier New" font-size="14.00">c d </text>
+<text text-anchor="start" x="356.49" y="-492.29999999999995" font-family="Courier New" font-size="14.00">$START -&gt; • S EOF </text>
+<polygon fill="lightgrey" stroke="transparent" points="529.5,-485.9 529.5,-507.9 568.5,-507.9 568.5,-485.9 529.5,-485.9"/>
+<text text-anchor="start" x="532.2" y="-492.29999999999995" font-family="Courier New" font-size="14.00">EOF </text>
+<text text-anchor="start" x="356.5" y="-468.29999999999995" font-family="Courier New" font-size="14.00">C -&gt; • d </text>
+<polygon fill="lightgrey" stroke="transparent" points="529.5,-461.9 529.5,-483.9 568.5,-483.9 568.5,-461.9 529.5,-461.9"/>
+<text text-anchor="start" x="532.2" y="-468.29999999999995" font-family="Courier New" font-size="14.00">c d </text>
+<text text-anchor="start" x="356.5" y="-444.29999999999995" font-family="Courier New" font-size="14.00">S -&gt; • C C </text>
+<polygon fill="lightgrey" stroke="transparent" points="529.5,-437.9 529.5,-459.9 568.5,-459.9 568.5,-437.9 529.5,-437.9"/>
+<text text-anchor="start" x="532.2" y="-444.29999999999995" font-family="Courier New" font-size="14.00">EOF </text>
+</g>
+<!-- state1 -->
+<g id="node2" class="node">
+<title>state1</title>
+<path fill="white" stroke="black" d="M39,-296.1C39,-296.1 250,-296.1 250,-296.1 256,-296.1 262,-302.1 262,-308.1 262,-308.1 262,-342.1 262,-342.1 262,-348.1 256,-354.1 250,-354.1 250,-354.1 39,-354.1 39,-354.1 33,-354.1 27,-348.1 27,-342.1 27,-342.1 27,-308.1 27,-308.1 27,-302.1 33,-296.1 39,-296.1"/>
+<polygon fill="white" stroke="transparent" points="35,-300.1 35,-350.1 254,-350.1 254,-300.1 35,-300.1"/>
+<polygon fill="black" stroke="transparent" points="37.5,-326.1 37.5,-348.1 252.5,-348.1 252.5,-326.1 37.5,-326.1"/>
+<text text-anchor="start" x="111.39" y="-332.5" font-family="Courier New" font-size="14.00" fill="white">State #1</text>
+<text text-anchor="start" x="40.49" y="-308.5" font-family="Courier New" font-size="14.00">$START -&gt; S • EOF </text>
+<polygon fill="lightgrey" stroke="transparent" points="213.5,-302.1 213.5,-324.1 252.5,-324.1 252.5,-302.1 213.5,-302.1"/>
+<text text-anchor="start" x="216.2" y="-308.5" font-family="Courier New" font-size="14.00">EOF </text>
+</g>
+<!-- state0&#45;&gt;state1 -->
+<g id="edge4" class="edge">
+<title>state0-&gt;state1</title>
+<path fill="none" stroke="black" d="M342.83,-432.67C296.37,-407.71 244.92,-380.06 206.07,-359.19"/>
+<polygon fill="black" stroke="black" points="207.45,-355.95 196.98,-354.3 204.13,-362.12 207.45,-355.95"/>
+<text text-anchor="middle" x="308.14" y="-400.8" font-family="Helvetica,Arial,sans-serif" font-size="14.00">S </text>
+</g>
+<!-- state2 -->
+<g id="node3" class="node">
+<title>state2</title>
+<path fill="white" stroke="black" d="M494.5,-272.1C494.5,-272.1 646.5,-272.1 646.5,-272.1 652.5,-272.1 658.5,-278.1 658.5,-284.1 658.5,-284.1 658.5,-366.1 658.5,-366.1 658.5,-372.1 652.5,-378.1 646.5,-378.1 646.5,-378.1 494.5,-378.1 494.5,-378.1 488.5,-378.1 482.5,-372.1 482.5,-366.1 482.5,-366.1 482.5,-284.1 482.5,-284.1 482.5,-278.1 488.5,-272.1 494.5,-272.1"/>
+<polygon fill="white" stroke="transparent" points="490.5,-276.1 490.5,-374.1 650.5,-374.1 650.5,-276.1 490.5,-276.1"/>
+<polygon fill="black" stroke="transparent" points="492.5,-350.1 492.5,-372.1 648.5,-372.1 648.5,-350.1 492.5,-350.1"/>
+<text text-anchor="start" x="536.89" y="-356.5" font-family="Courier New" font-size="14.00" fill="white">State #2</text>
+<text text-anchor="start" x="495.39" y="-332.5" font-family="Courier New" font-size="14.00">C -&gt; • c C </text>
+<polygon fill="lightgrey" stroke="transparent" points="609.5,-326.1 609.5,-348.1 648.5,-348.1 648.5,-326.1 609.5,-326.1"/>
+<text text-anchor="start" x="612.2" y="-332.5" font-family="Courier New" font-size="14.00">EOF </text>
+<text text-anchor="start" x="495.5" y="-308.5" font-family="Courier New" font-size="14.00">C -&gt; • d </text>
+<polygon fill="lightgrey" stroke="transparent" points="609.5,-302.1 609.5,-324.1 648.5,-324.1 648.5,-302.1 609.5,-302.1"/>
+<text text-anchor="start" x="612.2" y="-308.5" font-family="Courier New" font-size="14.00">EOF </text>
+<text text-anchor="start" x="495.39" y="-284.5" font-family="Courier New" font-size="14.00">S -&gt; C • C </text>
+<polygon fill="lightgrey" stroke="transparent" points="609.5,-278.1 609.5,-300.1 648.5,-300.1 648.5,-278.1 609.5,-278.1"/>
+<text text-anchor="start" x="612.2" y="-284.5" font-family="Courier New" font-size="14.00">EOF </text>
+</g>
+<!-- state0&#45;&gt;state2 -->
+<g id="edge3" class="edge">
+<title>state0-&gt;state2</title>
+<path fill="none" stroke="black" d="M502.09,-431.71C511.65,-416.95 521.79,-401.3 531.24,-386.7"/>
+<polygon fill="black" stroke="black" points="534.23,-388.53 536.73,-378.24 528.35,-384.73 534.23,-388.53"/>
+<text text-anchor="middle" x="528.92" y="-400.79999999999995" font-family="Helvetica,Arial,sans-serif" font-size="14.00">C </text>
+</g>
+<!-- state43 -->
+
+<!-- state1&#45;&gt;state43 -->
+<g id="edge2" class="edge">
+<title>state0-&gt;state3</title>
+<path fill="none" stroke="black" d="M578.04,-446.58C610.17,-428.81 642.88,-406.18 667.5,-378.6 754.23,-281.44 735.98,-224.04 736.5,-93.8 736.53,-86.33 737.73,-84.36 736.5,-77 736.02,-74.16 735.4,-71.26 734.66,-68.36"/>
+<polygon fill="black" stroke="black" points="737.99,-67.27 731.84,-58.64 731.27,-69.22 737.99,-67.27"/>
+<text text-anchor="middle" x="740.75" y="-241" font-family="Helvetica,Arial,sans-serif" font-size="14.00">d </text>
+</g>
+<!-- state3 -->
+<g id="node4" class="node">
+<title>state3</title>
+<path fill="white" stroke="black" d="M636,-0.5C636,-0.5 805,-0.5 805,-0.5 811,-0.5 817,-6.5 817,-12.5 817,-12.5 817,-46.5 817,-46.5 817,-52.5 811,-58.5 805,-58.5 805,-58.5 636,-58.5 636,-58.5 630,-58.5 624,-52.5 624,-46.5 624,-46.5 624,-12.5 624,-12.5 624,-6.5 630,-0.5 636,-0.5"/>
+<polygon fill="white" stroke="transparent" points="632,-4.5 632,-54.5 809,-54.5 809,-4.5 632,-4.5"/>
+<polygon fill="black" stroke="transparent" points="634.5,-30.5 634.5,-52.5 807.5,-52.5 807.5,-30.5 634.5,-30.5"/>
+<text text-anchor="start" x="687.39" y="-36.89999999999998" font-family="Courier New" font-size="14.00" fill="white">State #3</text>
+<text text-anchor="start" x="637.29" y="-12.899999999999977" font-family="Courier New" font-size="14.00">C -&gt; d • </text>
+<polygon fill="lightgrey" stroke="transparent" points="734.5,-6.5 734.5,-28.5 807.5,-28.5 807.5,-6.5 734.5,-6.5"/>
+<text text-anchor="start" x="737.39" y="-12.899999999999977" font-family="Courier New" font-size="14.00">EOF c d </text>
+</g>
+<!-- state2&#45;&gt;state3 -->
+<g id="edge1" class="edge">
+<title>state0-&gt;state4</title>
+<path fill="none" stroke="black" d="M440.59,-431.57C422.4,-372.77 395.66,-286.38 377.69,-228.32"/>
+<polygon fill="black" stroke="black" points="380.97,-227.06 374.67,-218.54 374.28,-229.13 380.97,-227.06"/>
+<text text-anchor="middle" x="428.36" y="-320.9" font-family="Helvetica,Arial,sans-serif" font-size="14.00">c </text>
+</g>
+<!-- state4 -->
+<g id="node5" class="node">
+<title>state4</title>
+<path fill="white" stroke="black" d="M265.5,-112.3C265.5,-112.3 451.5,-112.3 451.5,-112.3 457.5,-112.3 463.5,-118.3 463.5,-124.3 463.5,-124.3 463.5,-206.3 463.5,-206.3 463.5,-212.3 457.5,-218.3 451.5,-218.3 451.5,-218.3 265.5,-218.3 265.5,-218.3 259.5,-218.3 253.5,-212.3 253.5,-206.3 253.5,-206.3 253.5,-124.3 253.5,-124.3 253.5,-118.3 259.5,-112.3 265.5,-112.3"/>
+<polygon fill="white" stroke="transparent" points="261.5,-116.3 261.5,-214.3 455.5,-214.3 455.5,-116.3 261.5,-116.3"/>
+<polygon fill="black" stroke="transparent" points="263.5,-190.3 263.5,-212.3 453.5,-212.3 453.5,-190.3 263.5,-190.3"/>
+<text text-anchor="start" x="324.89" y="-196.7" font-family="Courier New" font-size="14.00" fill="white">State #4</text>
+<text text-anchor="start" x="266.39" y="-172.7" font-family="Courier New" font-size="14.00">C -&gt; c • C </text>
+<polygon fill="lightgrey" stroke="transparent" points="380.5,-166.3 380.5,-188.3 453.5,-188.3 453.5,-166.3 380.5,-166.3"/>
+<text text-anchor="start" x="383.39" y="-172.7" font-family="Courier New" font-size="14.00">EOF c d </text>
+<text text-anchor="start" x="266.39" y="-148.7" font-family="Courier New" font-size="14.00">C -&gt; • c C </text>
+<polygon fill="lightgrey" stroke="transparent" points="380.5,-142.3 380.5,-164.3 453.5,-164.3 453.5,-142.3 380.5,-142.3"/>
+<text text-anchor="start" x="383.39" y="-148.7" font-family="Courier New" font-size="14.00">EOF c d </text>
+<text text-anchor="start" x="266.5" y="-124.7" font-family="Courier New" font-size="14.00">C -&gt; • d </text>
+<polygon fill="lightgrey" stroke="transparent" points="380.5,-118.3 380.5,-140.3 453.5,-140.3 453.5,-118.3 380.5,-118.3"/>
+<text text-anchor="start" x="383.39" y="-124.7" font-family="Courier New" font-size="14.00">EOF c d </text>
+</g>
+<!-- state2&#45;&gt;state4 -->
+<g id="edge5" class="edge">
+<title>state1-&gt;state7</title>
+<path fill="none" stroke="black" d="M139.67,-295.89C135.31,-270.39 128.85,-232.63 124.03,-204.44"/>
+<polygon fill="black" stroke="black" points="127.47,-203.8 122.33,-194.53 120.57,-204.98 127.47,-203.8"/>
+<text text-anchor="middle" x="147.47" y="-241" font-family="Helvetica,Arial,sans-serif" font-size="14.00">EOF </text>
+</g>
+<!-- state5 -->
+<g id="node6" class="node">
+<title>state5</title>
+<path fill="white" stroke="black" d="M265.5,-0.5C265.5,-0.5 451.5,-0.5 451.5,-0.5 457.5,-0.5 463.5,-6.5 463.5,-12.5 463.5,-12.5 463.5,-46.5 463.5,-46.5 463.5,-52.5 457.5,-58.5 451.5,-58.5 451.5,-58.5 265.5,-58.5 265.5,-58.5 259.5,-58.5 253.5,-52.5 253.5,-46.5 253.5,-46.5 253.5,-12.5 253.5,-12.5 253.5,-6.5 259.5,-0.5 265.5,-0.5"/>
+<polygon fill="white" stroke="transparent" points="261.5,-4.5 261.5,-54.5 455.5,-54.5 455.5,-4.5 261.5,-4.5"/>
+<polygon fill="black" stroke="transparent" points="263.5,-30.5 263.5,-52.5 453.5,-52.5 453.5,-30.5 263.5,-30.5"/>
+<text text-anchor="start" x="324.89" y="-36.89999999999998" font-family="Courier New" font-size="14.00" fill="white">State #5</text>
+<text text-anchor="start" x="266.39" y="-12.899999999999977" font-family="Courier New" font-size="14.00">C -&gt; c C • </text>
+<polygon fill="lightgrey" stroke="transparent" points="380.5,-6.5 380.5,-28.5 453.5,-28.5 453.5,-6.5 380.5,-6.5"/>
+<text text-anchor="start" x="383.39" y="-12.899999999999977" font-family="Courier New" font-size="14.00">EOF c d </text>
+</g><g id="edge7" class="edge">
+<title>state2-&gt;state3</title>
+<path fill="none" stroke="black" d="M648.66,-272.01C665.99,-256.84 682.46,-238.88 693.5,-218.8 719.35,-171.78 723.26,-108.59 722.67,-68.7"/>
+<polygon fill="black" stroke="black" points="726.17,-68.5 722.42,-58.59 719.17,-68.68 726.17,-68.5"/>
+<text text-anchor="middle" x="725.75" y="-161.1" font-family="Helvetica,Arial,sans-serif" font-size="14.00">d </text>
+</g>
+<!-- state2&#45;&gt;state5 -->
+<g id="edge6" class="edge">
+<title>state2-&gt;state4</title>
+<path fill="none" stroke="black" d="M500.5,-271.99C480.05,-256.78 457.58,-240.05 436.67,-224.48"/>
+<polygon fill="black" stroke="black" points="438.54,-221.52 428.43,-218.35 434.36,-227.13 438.54,-221.52"/>
+<text text-anchor="middle" x="476.36" y="-241" font-family="Helvetica,Arial,sans-serif" font-size="14.00">c </text>
+</g>
+<!-- state4&#45;&gt;state4 -->
+
+<!-- state4&#45;&gt;state5 -->
+<g id="edge8" class="edge">
+<title>state2-&gt;state6</title>
+<path fill="none" stroke="black" d="M579.09,-271.99C582.71,-249.98 586.86,-224.8 590.2,-204.54"/>
+<polygon fill="black" stroke="black" points="593.69,-204.88 591.86,-194.44 586.78,-203.74 593.69,-204.88"/>
+<text text-anchor="middle" x="589.92" y="-241" font-family="Helvetica,Arial,sans-serif" font-size="14.00">C </text>
+</g>
+<!-- state42 -->
+<g id="edge11" class="edge">
+<title>state4-&gt;state3</title>
+<path fill="none" stroke="black" d="M463.58,-125.12C475.69,-120.62 487.86,-116.11 499.5,-111.8 544.05,-95.31 593.69,-77.04 634.62,-62"/>
+<polygon fill="black" stroke="black" points="635.84,-65.28 644.02,-58.55 633.43,-58.71 635.84,-65.28"/>
+<text text-anchor="middle" x="595.75" y="-81.2" font-family="Helvetica,Arial,sans-serif" font-size="14.00">d </text>
+</g>
+<!-- state4&#45;&gt;state42 -->
+<g id="edge9" class="edge">
+<title>state4-&gt;state4</title>
+<path fill="none" stroke="black" d="M463.92,-177.32C474.65,-174.94 481.5,-170.94 481.5,-165.3 481.5,-161.6 478.55,-158.6 473.49,-156.31"/>
+<polygon fill="black" stroke="black" points="474.51,-152.96 463.92,-153.28 472.39,-159.63 474.51,-152.96"/>
+<text text-anchor="middle" x="486.36" y="-161.1" font-family="Helvetica,Arial,sans-serif" font-size="14.00">c </text>
+</g>
+<!-- state6 -->
+<g id="node7" class="node">
+<title>state6</title>
+<path fill="white" stroke="black" d="M520.5,-136.3C520.5,-136.3 672.5,-136.3 672.5,-136.3 678.5,-136.3 684.5,-142.3 684.5,-148.3 684.5,-148.3 684.5,-182.3 684.5,-182.3 684.5,-188.3 678.5,-194.3 672.5,-194.3 672.5,-194.3 520.5,-194.3 520.5,-194.3 514.5,-194.3 508.5,-188.3 508.5,-182.3 508.5,-182.3 508.5,-148.3 508.5,-148.3 508.5,-142.3 514.5,-136.3 520.5,-136.3"/>
+<polygon fill="white" stroke="transparent" points="516.5,-140.3 516.5,-190.3 676.5,-190.3 676.5,-140.3 516.5,-140.3"/>
+<polygon fill="black" stroke="transparent" points="518.5,-166.3 518.5,-188.3 674.5,-188.3 674.5,-166.3 518.5,-166.3"/>
+<text text-anchor="start" x="562.89" y="-172.7" font-family="Courier New" font-size="14.00" fill="white">State #6</text>
+<text text-anchor="start" x="521.39" y="-148.7" font-family="Courier New" font-size="14.00">S -&gt; C C • </text>
+<polygon fill="lightgrey" stroke="transparent" points="635.5,-142.3 635.5,-164.3 674.5,-164.3 674.5,-142.3 635.5,-142.3"/>
+<text text-anchor="start" x="638.2" y="-148.7" font-family="Courier New" font-size="14.00">EOF </text>
+</g>
+<!-- state5&#45;&gt;state6 -->
+<g id="edge10" class="edge">
+<title>state4-&gt;state5</title>
+<path fill="none" stroke="black" d="M358.5,-112.19C358.5,-97.83 358.5,-82.51 358.5,-69.07"/>
+<polygon fill="black" stroke="black" points="362,-68.74 358.5,-58.74 355,-68.74 362,-68.74"/>
+<text text-anchor="middle" x="364.92" y="-81.2" font-family="Helvetica,Arial,sans-serif" font-size="14.00">C </text>
+</g>
+<g id="node8" class="node">
+<title>state7</title>
+<path fill="white" stroke="black" d="M12,-136.3C12,-136.3 223,-136.3 223,-136.3 229,-136.3 235,-142.3 235,-148.3 235,-148.3 235,-182.3 235,-182.3 235,-188.3 229,-194.3 223,-194.3 223,-194.3 12,-194.3 12,-194.3 6,-194.3 0,-188.3 0,-182.3 0,-182.3 0,-148.3 0,-148.3 0,-142.3 6,-136.3 12,-136.3"/>
+<polygon fill="white" stroke="transparent" points="8,-140.3 8,-190.3 227,-190.3 227,-140.3 8,-140.3"/>
+<polygon fill="black" stroke="transparent" points="10.5,-166.3 10.5,-188.3 225.5,-188.3 225.5,-166.3 10.5,-166.3"/>
+<text text-anchor="start" x="84.38999999999999" y="-172.69999999999993" font-family="Courier New" font-size="14.00" fill="white">State #7</text>
+<text text-anchor="start" x="13.490000000000009" y="-148.69999999999993" font-family="Courier New" font-size="14.00">$START -&gt; S EOF • </text>
+<polygon fill="lightgrey" stroke="transparent" points="186.5,-142.3 186.5,-164.3 225.5,-164.3 225.5,-142.3 186.5,-142.3"/>
+<text text-anchor="start" x="189.20000000000005" y="-148.69999999999993" font-family="Courier New" font-size="14.00">EOF </text>
+</g></g>
+</svg>

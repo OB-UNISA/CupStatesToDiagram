@@ -1,0 +1,110 @@
+START lalr_state [0]: {
+  [F ::= (*) LPAR E RPAR , {EOF PLUS MULT }]
+  [E ::= (*) T , {EOF PLUS }]
+  [T ::= (*) F , {EOF PLUS MULT }]
+  [$START ::= (*) E EOF , {EOF }]
+  [F ::= (*) ID , {EOF PLUS MULT }]
+  [T ::= (*) T MULT F , {EOF PLUS MULT }]
+  [E ::= (*) E PLUS T , {EOF PLUS }]
+}
+transition on E to state [5]
+transition on F to state [4]
+transition on LPAR to state [3]
+transition on T to state [2]
+transition on ID to state [1]
+
+-------------------
+lalr_state [1]: {
+  [F ::= ID (*) , {EOF PLUS MULT RPAR }]
+}
+
+-------------------
+lalr_state [2]: {
+  [E ::= T (*) , {EOF PLUS RPAR }]
+  [T ::= T (*) MULT F , {EOF PLUS MULT RPAR }]
+}
+transition on MULT to state [9]
+
+-------------------
+lalr_state [3]: {
+  [F ::= LPAR (*) E RPAR , {EOF PLUS MULT RPAR }]
+  [F ::= (*) LPAR E RPAR , {PLUS MULT RPAR }]
+  [E ::= (*) T , {PLUS RPAR }]
+  [T ::= (*) F , {PLUS MULT RPAR }]
+  [F ::= (*) ID , {PLUS MULT RPAR }]
+  [T ::= (*) T MULT F , {PLUS MULT RPAR }]
+  [E ::= (*) E PLUS T , {PLUS RPAR }]
+}
+transition on E to state [11]
+transition on F to state [4]
+transition on LPAR to state [3]
+transition on T to state [2]
+transition on ID to state [1]
+
+-------------------
+lalr_state [4]: {
+  [T ::= F (*) , {EOF PLUS MULT RPAR }]
+}
+
+-------------------
+lalr_state [5]: {
+  [$START ::= E (*) EOF , {EOF }]
+  [E ::= E (*) PLUS T , {EOF PLUS }]
+}
+transition on EOF to state [7]
+transition on PLUS to state [6]
+
+-------------------
+lalr_state [6]: {
+  [F ::= (*) LPAR E RPAR , {EOF PLUS MULT RPAR }]
+  [T ::= (*) F , {EOF PLUS MULT RPAR }]
+  [F ::= (*) ID , {EOF PLUS MULT RPAR }]
+  [E ::= E PLUS (*) T , {EOF PLUS RPAR }]
+  [T ::= (*) T MULT F , {EOF PLUS MULT RPAR }]
+}
+transition on F to state [4]
+transition on LPAR to state [3]
+transition on T to state [8]
+transition on ID to state [1]
+
+-------------------
+lalr_state [7]: {
+  [$START ::= E EOF (*) , {EOF }]
+}
+
+-------------------
+lalr_state [8]: {
+  [E ::= E PLUS T (*) , {EOF PLUS RPAR }]
+  [T ::= T (*) MULT F , {EOF PLUS MULT RPAR }]
+}
+transition on MULT to state [9]
+
+-------------------
+lalr_state [9]: {
+  [F ::= (*) LPAR E RPAR , {EOF PLUS MULT RPAR }]
+  [T ::= T MULT (*) F , {EOF PLUS MULT RPAR }]
+  [F ::= (*) ID , {EOF PLUS MULT RPAR }]
+}
+transition on F to state [10]
+transition on LPAR to state [3]
+transition on ID to state [1]
+
+-------------------
+lalr_state [10]: {
+  [T ::= T MULT F (*) , {EOF PLUS MULT RPAR }]
+}
+
+-------------------
+lalr_state [11]: {
+  [E ::= E (*) PLUS T , {PLUS RPAR }]
+  [F ::= LPAR E (*) RPAR , {EOF PLUS MULT RPAR }]
+}
+transition on RPAR to state [12]
+transition on PLUS to state [6]
+
+-------------------
+lalr_state [12]: {
+  [F ::= LPAR E RPAR (*) , {EOF PLUS MULT RPAR }]
+}
+
+-------------------

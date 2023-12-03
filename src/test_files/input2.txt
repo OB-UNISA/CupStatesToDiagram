@@ -1,0 +1,11 @@
+START lalr_state [0]: {
+  [$START ::= (*) StartState EOF , {EOF }]
+}
+transition on START to state [1]
+
+-------------------
+lalr_state [1]: {
+  [StartState ::= START States (*) , {EOF }]
+}
+
+-------------------

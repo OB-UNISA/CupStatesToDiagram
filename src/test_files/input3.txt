@@ -1,0 +1,5 @@
+START lalr_state [0]: {
+  [$START ::= (*) StartState EOF , {EOF }]
+  [SentIds ::= (*) , {DOTSYM }]
+}
+-------------------

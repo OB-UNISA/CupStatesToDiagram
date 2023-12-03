@@ -1,0 +1,1011 @@
+<svg width="744" height="643" viewBox="0 0 558 482.25" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="translate(1.9383078366015307,481.6530451017218) scale(0.14923872456956558)">
+<title>g</title>
+<polygon fill="white" stroke="transparent" points="-4,4 -4,-3227.4 3717,-3227.4 3717,4 -4,4"/>
+<!-- state1 -->
+<g id="node2" class="node">
+<title>state1</title>
+<path fill="white" stroke="black" d="M120,-2981.1C120,-2981.1 406,-2981.1 406,-2981.1 412,-2981.1 418,-2987.1 418,-2993.1 418,-2993.1 418,-3027.1 418,-3027.1 418,-3033.1 412,-3039.1 406,-3039.1 406,-3039.1 120,-3039.1 120,-3039.1 114,-3039.1 108,-3033.1 108,-3027.1 108,-3027.1 108,-2993.1 108,-2993.1 108,-2987.1 114,-2981.1 120,-2981.1"/>
+<polygon fill="white" stroke="transparent" points="116,-2985.1 116,-3035.1 410,-3035.1 410,-2985.1 116,-2985.1"/>
+<polygon fill="black" stroke="transparent" points="118,-3011.1 118,-3033.1 408,-3033.1 408,-3011.1 118,-3011.1"/>
+<text text-anchor="start" x="229.39" y="-3017.5" font-family="Courier New" font-size="14.00" fill="white">State #1</text>
+<text text-anchor="start" x="120.68" y="-2993.5" font-family="Courier New" font-size="14.00">$START -&gt; StartState • EOF </text>
+<polygon fill="lightgrey" stroke="transparent" points="369,-2987.1 369,-3009.1 408,-3009.1 408,-2987.1 369,-2987.1"/>
+<text text-anchor="start" x="371.7" y="-2993.5" font-family="Courier New" font-size="14.00">EOF </text>
+</g>
+<!-- state43 -->
+<g id="node44" class="node">
+<title>state43</title>
+<path fill="white" stroke="black" d="M12,-2761.3C12,-2761.3 298,-2761.3 298,-2761.3 304,-2761.3 310,-2767.3 310,-2773.3 310,-2773.3 310,-2807.3 310,-2807.3 310,-2813.3 304,-2819.3 298,-2819.3 298,-2819.3 12,-2819.3 12,-2819.3 6,-2819.3 0,-2813.3 0,-2807.3 0,-2807.3 0,-2773.3 0,-2773.3 0,-2767.3 6,-2761.3 12,-2761.3"/>
+<polygon fill="white" stroke="transparent" points="8,-2765.3 8,-2815.3 302,-2815.3 302,-2765.3 8,-2765.3"/>
+<polygon fill="black" stroke="transparent" points="10,-2791.3 10,-2813.3 300,-2813.3 300,-2791.3 10,-2791.3"/>
+<text text-anchor="start" x="117.19" y="-2797.7" font-family="Courier New" font-size="14.00" fill="white">State #43</text>
+<text text-anchor="start" x="12.68" y="-2773.7" font-family="Courier New" font-size="14.00">$START -&gt; StartState EOF • </text>
+<polygon fill="lightgrey" stroke="transparent" points="261,-2767.3 261,-2789.3 300,-2789.3 300,-2767.3 261,-2767.3"/>
+<text text-anchor="start" x="263.7" y="-2773.7" font-family="Courier New" font-size="14.00">EOF </text>
+</g>
+<!-- state1&#45;&gt;state43 -->
+<g id="edge3" class="edge">
+<title>state1-&gt;state43</title>
+<path fill="none" stroke="black" d="M249.1,-2981.07C229.84,-2942.22 194.97,-2871.9 173.51,-2828.63"/>
+<polygon fill="black" stroke="black" points="176.59,-2826.97 169.02,-2819.57 170.32,-2830.08 176.59,-2826.97"/>
+<text text-anchor="middle" x="230.97" y="-2902" font-family="Helvetica,Arial,sans-serif" font-size="14.00">EOF </text>
+</g>
+<!-- state2 -->
+<g id="node3" class="node">
+<title>state2</title>
+<path fill="white" stroke="black" d="M662,-2933.1C662,-2933.1 1326,-2933.1 1326,-2933.1 1332,-2933.1 1338,-2939.1 1338,-2945.1 1338,-2945.1 1338,-3075.1 1338,-3075.1 1338,-3081.1 1332,-3087.1 1326,-3087.1 1326,-3087.1 662,-3087.1 662,-3087.1 656,-3087.1 650,-3081.1 650,-3075.1 650,-3075.1 650,-2945.1 650,-2945.1 650,-2939.1 656,-2933.1 662,-2933.1"/>
+<polygon fill="white" stroke="transparent" points="658,-2937.1 658,-3083.1 1330,-3083.1 1330,-2937.1 658,-2937.1"/>
+<polygon fill="black" stroke="transparent" points="660,-3059.1 660,-3081.1 1328,-3081.1 1328,-3059.1 660,-3059.1"/>
+<text text-anchor="start" x="960.39" y="-3065.5" font-family="Courier New" font-size="14.00" fill="white">State #2</text>
+<text text-anchor="start" x="663" y="-3041.5" font-family="Courier New" font-size="14.00">State -&gt; • LALRWRD LSQ SNUM RSQ COLON LCUR Items RCUR SEP </text>
+<polygon fill="lightgrey" stroke="transparent" points="1222,-3035.1 1222,-3057.1 1328,-3057.1 1328,-3035.1 1222,-3035.1"/>
+<text text-anchor="start" x="1224.59" y="-3041.5" font-family="Courier New" font-size="14.00">EOF LALRWRD </text>
+<text text-anchor="start" x="663" y="-3017.5" font-family="Courier New" font-size="14.00">States -&gt; • State States </text>
+<polygon fill="lightgrey" stroke="transparent" points="1222,-3011.1 1222,-3033.1 1328,-3033.1 1328,-3011.1 1222,-3011.1"/>
+<text text-anchor="start" x="1225" y="-3017.5" font-family="Courier New" font-size="14.00">EOF </text>
+<text text-anchor="start" x="662.75" y="-2993.5" font-family="Courier New" font-size="14.00">State -&gt; • LALRWRD LSQ SNUM RSQ COLON LCUR Items RCUR Trans SEP </text>
+<polygon fill="lightgrey" stroke="transparent" points="1222,-2987.1 1222,-3009.1 1328,-3009.1 1328,-2987.1 1222,-2987.1"/>
+<text text-anchor="start" x="1224.59" y="-2993.5" font-family="Courier New" font-size="14.00">EOF LALRWRD </text>
+<text text-anchor="start" x="663" y="-2969.5" font-family="Courier New" font-size="14.00">States -&gt; • State </text>
+<polygon fill="lightgrey" stroke="transparent" points="1222,-2963.1 1222,-2985.1 1328,-2985.1 1328,-2963.1 1222,-2963.1"/>
+<text text-anchor="start" x="1225" y="-2969.5" font-family="Courier New" font-size="14.00">EOF </text>
+<text text-anchor="start" x="663" y="-2945.5" font-family="Courier New" font-size="14.00">StartState -&gt; START • States </text>
+<polygon fill="lightgrey" stroke="transparent" points="1222,-2939.1 1222,-2961.1 1328,-2961.1 1328,-2939.1 1222,-2939.1"/>
+<text text-anchor="start" x="1225" y="-2945.5" font-family="Courier New" font-size="14.00">EOF </text>
+</g>
+<!-- state3 -->
+<g id="node4" class="node">
+<title>state3</title>
+<path fill="white" stroke="black" d="M1203.5,-2761.3C1203.5,-2761.3 1506.5,-2761.3 1506.5,-2761.3 1512.5,-2761.3 1518.5,-2767.3 1518.5,-2773.3 1518.5,-2773.3 1518.5,-2807.3 1518.5,-2807.3 1518.5,-2813.3 1512.5,-2819.3 1506.5,-2819.3 1506.5,-2819.3 1203.5,-2819.3 1203.5,-2819.3 1197.5,-2819.3 1191.5,-2813.3 1191.5,-2807.3 1191.5,-2807.3 1191.5,-2773.3 1191.5,-2773.3 1191.5,-2767.3 1197.5,-2761.3 1203.5,-2761.3"/>
+<polygon fill="white" stroke="transparent" points="1199.5,-2765.3 1199.5,-2815.3 1510.5,-2815.3 1510.5,-2765.3 1199.5,-2765.3"/>
+<polygon fill="black" stroke="transparent" points="1202,-2791.3 1202,-2813.3 1509,-2813.3 1509,-2791.3 1202,-2791.3"/>
+<text text-anchor="start" x="1321.89" y="-2797.7" font-family="Courier New" font-size="14.00" fill="white">State #3</text>
+<text text-anchor="start" x="1204.78" y="-2773.7" font-family="Courier New" font-size="14.00">StartState -&gt; START States • </text>
+<polygon fill="lightgrey" stroke="transparent" points="1470,-2767.3 1470,-2789.3 1509,-2789.3 1509,-2767.3 1470,-2767.3"/>
+<text text-anchor="start" x="1472.7" y="-2773.7" font-family="Courier New" font-size="14.00">EOF </text>
+</g>
+<!-- state2&#45;&gt;state3 -->
+<g id="edge6" class="edge">
+<title>state2-&gt;state3</title>
+<path fill="none" stroke="black" d="M1120.01,-2933.08C1181.47,-2895.99 1252.24,-2853.29 1299.92,-2824.53"/>
+<polygon fill="black" stroke="black" points="1301.8,-2827.49 1308.55,-2819.32 1298.18,-2821.49 1301.8,-2827.49"/>
+<text text-anchor="middle" x="1192.47" y="-2902" font-family="Helvetica,Arial,sans-serif" font-size="14.00">States </text>
+</g>
+<!-- state4 -->
+<g id="node5" class="node">
+<title>state4</title>
+<path fill="white" stroke="black" d="M340,-2701.3C340,-2701.3 1004,-2701.3 1004,-2701.3 1010,-2701.3 1016,-2707.3 1016,-2713.3 1016,-2713.3 1016,-2867.3 1016,-2867.3 1016,-2873.3 1010,-2879.3 1004,-2879.3 1004,-2879.3 340,-2879.3 340,-2879.3 334,-2879.3 328,-2873.3 328,-2867.3 328,-2867.3 328,-2713.3 328,-2713.3 328,-2707.3 334,-2701.3 340,-2701.3"/>
+<polygon fill="white" stroke="transparent" points="336,-2705.3 336,-2875.3 1008,-2875.3 1008,-2705.3 336,-2705.3"/>
+<polygon fill="black" stroke="transparent" points="338,-2851.3 338,-2873.3 1006,-2873.3 1006,-2851.3 338,-2851.3"/>
+<text text-anchor="start" x="638.39" y="-2857.7" font-family="Courier New" font-size="14.00" fill="white">State #4</text>
+<text text-anchor="start" x="341" y="-2833.7" font-family="Courier New" font-size="14.00">State -&gt; • LALRWRD LSQ SNUM RSQ COLON LCUR Items RCUR SEP </text>
+<polygon fill="lightgrey" stroke="transparent" points="900,-2827.3 900,-2849.3 1006,-2849.3 1006,-2827.3 900,-2827.3"/>
+<text text-anchor="start" x="902.59" y="-2833.7" font-family="Courier New" font-size="14.00">EOF LALRWRD </text>
+<text text-anchor="start" x="341" y="-2809.7" font-family="Courier New" font-size="14.00">States -&gt; State • States </text>
+<polygon fill="lightgrey" stroke="transparent" points="900,-2803.3 900,-2825.3 1006,-2825.3 1006,-2803.3 900,-2803.3"/>
+<text text-anchor="start" x="903" y="-2809.7" font-family="Courier New" font-size="14.00">EOF </text>
+<text text-anchor="start" x="341" y="-2785.7" font-family="Courier New" font-size="14.00">States -&gt; • State States </text>
+<polygon fill="lightgrey" stroke="transparent" points="900,-2779.3 900,-2801.3 1006,-2801.3 1006,-2779.3 900,-2779.3"/>
+<text text-anchor="start" x="903" y="-2785.7" font-family="Courier New" font-size="14.00">EOF </text>
+<text text-anchor="start" x="340.75" y="-2761.7" font-family="Courier New" font-size="14.00">State -&gt; • LALRWRD LSQ SNUM RSQ COLON LCUR Items RCUR Trans SEP </text>
+<polygon fill="lightgrey" stroke="transparent" points="900,-2755.3 900,-2777.3 1006,-2777.3 1006,-2755.3 900,-2755.3"/>
+<text text-anchor="start" x="902.59" y="-2761.7" font-family="Courier New" font-size="14.00">EOF LALRWRD </text>
+<text text-anchor="start" x="341" y="-2737.7" font-family="Courier New" font-size="14.00">States -&gt; State • </text>
+<polygon fill="lightgrey" stroke="transparent" points="900,-2731.3 900,-2753.3 1006,-2753.3 1006,-2731.3 900,-2731.3"/>
+<text text-anchor="start" x="903" y="-2737.7" font-family="Courier New" font-size="14.00">EOF </text>
+<text text-anchor="start" x="341" y="-2713.7" font-family="Courier New" font-size="14.00">States -&gt; • State </text>
+<polygon fill="lightgrey" stroke="transparent" points="900,-2707.3 900,-2729.3 1006,-2729.3 1006,-2707.3 900,-2707.3"/>
+<text text-anchor="start" x="903" y="-2713.7" font-family="Courier New" font-size="14.00">EOF </text>
+</g>
+<!-- state2&#45;&gt;state4 -->
+<g id="edge5" class="edge">
+<title>state2-&gt;state4</title>
+<path fill="none" stroke="black" d="M881.38,-2932.92C858.51,-2917.45 834.19,-2901.01 810.54,-2885.01"/>
+<polygon fill="black" stroke="black" points="812.45,-2882.08 802.21,-2879.37 808.53,-2887.87 812.45,-2882.08"/>
+<text text-anchor="middle" x="867.75" y="-2902" font-family="Helvetica,Arial,sans-serif" font-size="14.00">State </text>
+</g>
+<!-- state5 -->
+<g id="node6" class="node">
+<title>state5</title>
+<path fill="white" stroke="black" d="M769,-2565.5C769,-2565.5 1433,-2565.5 1433,-2565.5 1439,-2565.5 1445,-2571.5 1445,-2577.5 1445,-2577.5 1445,-2635.5 1445,-2635.5 1445,-2641.5 1439,-2647.5 1433,-2647.5 1433,-2647.5 769,-2647.5 769,-2647.5 763,-2647.5 757,-2641.5 757,-2635.5 757,-2635.5 757,-2577.5 757,-2577.5 757,-2571.5 763,-2565.5 769,-2565.5"/>
+<polygon fill="white" stroke="transparent" points="765,-2569.5 765,-2643.5 1437,-2643.5 1437,-2569.5 765,-2569.5"/>
+<polygon fill="black" stroke="transparent" points="767,-2619.5 767,-2641.5 1435,-2641.5 1435,-2619.5 767,-2619.5"/>
+<text text-anchor="start" x="1067.39" y="-2625.9" font-family="Courier New" font-size="14.00" fill="white">State #5</text>
+<text text-anchor="start" x="770" y="-2601.9" font-family="Courier New" font-size="14.00">State -&gt; LALRWRD • LSQ SNUM RSQ COLON LCUR Items RCUR SEP </text>
+<polygon fill="lightgrey" stroke="transparent" points="1329,-2595.5 1329,-2617.5 1435,-2617.5 1435,-2595.5 1329,-2595.5"/>
+<text text-anchor="start" x="1331.59" y="-2601.9" font-family="Courier New" font-size="14.00">EOF LALRWRD </text>
+<text text-anchor="start" x="769.75" y="-2577.9" font-family="Courier New" font-size="14.00">State -&gt; LALRWRD • LSQ SNUM RSQ COLON LCUR Items RCUR Trans SEP </text>
+<polygon fill="lightgrey" stroke="transparent" points="1329,-2571.5 1329,-2593.5 1435,-2593.5 1435,-2571.5 1329,-2571.5"/>
+<text text-anchor="start" x="1331.59" y="-2577.9" font-family="Courier New" font-size="14.00">EOF LALRWRD </text>
+</g>
+<!-- state2&#45;&gt;state5 -->
+<g id="edge4" class="edge">
+<title>state2-&gt;state5</title>
+<path fill="none" stroke="black" d="M1048.93,-2932.98C1058.79,-2916.16 1067.86,-2897.93 1074,-2879.8 1099.12,-2805.61 1103.08,-2714.04 1102.72,-2658.24"/>
+<polygon fill="black" stroke="black" points="1106.22,-2657.88 1102.6,-2647.92 1099.22,-2657.96 1106.22,-2657.88"/>
+<text text-anchor="middle" x="1137.36" y="-2786.1" font-family="Helvetica,Arial,sans-serif" font-size="14.00">LALRWRD </text>
+</g>
+<!-- state4&#45;&gt;state4 -->
+<g id="edge8" class="edge">
+<title>state4-&gt;state4</title>
+<path fill="none" stroke="black" d="M1016.11,-2802.03C1027.5,-2798.88 1034,-2794.98 1034,-2790.3 1034,-2787.16 1031.07,-2784.36 1025.69,-2781.91"/>
+<polygon fill="black" stroke="black" points="1026.71,-2778.56 1016.11,-2778.57 1024.4,-2785.17 1026.71,-2778.56"/>
+<text text-anchor="middle" x="1049.75" y="-2786.1" font-family="Helvetica,Arial,sans-serif" font-size="14.00">State </text>
+</g>
+<!-- state4&#45;&gt;state5 -->
+<g id="edge7" class="edge">
+<title>state4-&gt;state5</title>
+<path fill="none" stroke="black" d="M879.9,-2701.2C920.6,-2683.95 961.62,-2666.57 997.09,-2651.54"/>
+<polygon fill="black" stroke="black" points="998.62,-2654.69 1006.46,-2647.56 995.89,-2648.24 998.62,-2654.69"/>
+<text text-anchor="middle" x="998.36" y="-2670.2" font-family="Helvetica,Arial,sans-serif" font-size="14.00">LALRWRD </text>
+</g>
+<!-- state42 -->
+<g id="node43" class="node">
+<title>state42</title>
+<path fill="white" stroke="black" d="M457.5,-2577.5C457.5,-2577.5 726.5,-2577.5 726.5,-2577.5 732.5,-2577.5 738.5,-2583.5 738.5,-2589.5 738.5,-2589.5 738.5,-2623.5 738.5,-2623.5 738.5,-2629.5 732.5,-2635.5 726.5,-2635.5 726.5,-2635.5 457.5,-2635.5 457.5,-2635.5 451.5,-2635.5 445.5,-2629.5 445.5,-2623.5 445.5,-2623.5 445.5,-2589.5 445.5,-2589.5 445.5,-2583.5 451.5,-2577.5 457.5,-2577.5"/>
+<polygon fill="white" stroke="transparent" points="453.5,-2581.5 453.5,-2631.5 730.5,-2631.5 730.5,-2581.5 453.5,-2581.5"/>
+<polygon fill="black" stroke="transparent" points="456,-2607.5 456,-2629.5 729,-2629.5 729,-2607.5 456,-2607.5"/>
+<text text-anchor="start" x="554.69" y="-2613.9" font-family="Courier New" font-size="14.00" fill="white">State #42</text>
+<text text-anchor="start" x="458.58" y="-2589.9" font-family="Courier New" font-size="14.00">States -&gt; State States • </text>
+<polygon fill="lightgrey" stroke="transparent" points="690,-2583.5 690,-2605.5 729,-2605.5 729,-2583.5 690,-2583.5"/>
+<text text-anchor="start" x="692.7" y="-2589.9" font-family="Courier New" font-size="14.00">EOF </text>
+</g>
+<!-- state4&#45;&gt;state42 -->
+<g id="edge9" class="edge">
+<title>state4-&gt;state42</title>
+<path fill="none" stroke="black" d="M633.17,-2701.06C624.45,-2681.25 615.66,-2661.27 608.45,-2644.88"/>
+<polygon fill="black" stroke="black" points="611.63,-2643.43 604.4,-2635.68 605.23,-2646.25 611.63,-2643.43"/>
+<text text-anchor="middle" x="642.47" y="-2670.2" font-family="Helvetica,Arial,sans-serif" font-size="14.00">States </text>
+</g>
+<!-- state6 -->
+<g id="node7" class="node">
+<title>state6</title>
+<path fill="white" stroke="black" d="M769,-2429.7C769,-2429.7 1433,-2429.7 1433,-2429.7 1439,-2429.7 1445,-2435.7 1445,-2441.7 1445,-2441.7 1445,-2499.7 1445,-2499.7 1445,-2505.7 1439,-2511.7 1433,-2511.7 1433,-2511.7 769,-2511.7 769,-2511.7 763,-2511.7 757,-2505.7 757,-2499.7 757,-2499.7 757,-2441.7 757,-2441.7 757,-2435.7 763,-2429.7 769,-2429.7"/>
+<polygon fill="white" stroke="transparent" points="765,-2433.7 765,-2507.7 1437,-2507.7 1437,-2433.7 765,-2433.7"/>
+<polygon fill="black" stroke="transparent" points="767,-2483.7 767,-2505.7 1435,-2505.7 1435,-2483.7 767,-2483.7"/>
+<text text-anchor="start" x="1067.39" y="-2490.1" font-family="Courier New" font-size="14.00" fill="white">State #6</text>
+<text text-anchor="start" x="769.75" y="-2466.1" font-family="Courier New" font-size="14.00">State -&gt; LALRWRD LSQ • SNUM RSQ COLON LCUR Items RCUR Trans SEP </text>
+<polygon fill="lightgrey" stroke="transparent" points="1329,-2459.7 1329,-2481.7 1435,-2481.7 1435,-2459.7 1329,-2459.7"/>
+<text text-anchor="start" x="1331.59" y="-2466.1" font-family="Courier New" font-size="14.00">EOF LALRWRD </text>
+<text text-anchor="start" x="770" y="-2442.1" font-family="Courier New" font-size="14.00">State -&gt; LALRWRD LSQ • SNUM RSQ COLON LCUR Items RCUR SEP </text>
+<polygon fill="lightgrey" stroke="transparent" points="1329,-2435.7 1329,-2457.7 1435,-2457.7 1435,-2435.7 1329,-2435.7"/>
+<text text-anchor="start" x="1331.59" y="-2442.1" font-family="Courier New" font-size="14.00">EOF LALRWRD </text>
+</g>
+<!-- state5&#45;&gt;state6 -->
+<g id="edge10" class="edge">
+<title>state5-&gt;state6</title>
+<path fill="none" stroke="black" d="M1101,-2565.36C1101,-2551.73 1101,-2536.33 1101,-2522.01"/>
+<polygon fill="black" stroke="black" points="1104.5,-2521.82 1101,-2511.82 1097.5,-2521.82 1104.5,-2521.82"/>
+<text text-anchor="middle" x="1115.97" y="-2534.4" font-family="Helvetica,Arial,sans-serif" font-size="14.00">LSQ </text>
+</g>
+<!-- state7 -->
+<g id="node8" class="node">
+<title>state7</title>
+<path fill="white" stroke="black" d="M769,-2293.9C769,-2293.9 1433,-2293.9 1433,-2293.9 1439,-2293.9 1445,-2299.9 1445,-2305.9 1445,-2305.9 1445,-2363.9 1445,-2363.9 1445,-2369.9 1439,-2375.9 1433,-2375.9 1433,-2375.9 769,-2375.9 769,-2375.9 763,-2375.9 757,-2369.9 757,-2363.9 757,-2363.9 757,-2305.9 757,-2305.9 757,-2299.9 763,-2293.9 769,-2293.9"/>
+<polygon fill="white" stroke="transparent" points="765,-2297.9 765,-2371.9 1437,-2371.9 1437,-2297.9 765,-2297.9"/>
+<polygon fill="black" stroke="transparent" points="767,-2347.9 767,-2369.9 1435,-2369.9 1435,-2347.9 767,-2347.9"/>
+<text text-anchor="start" x="1067.39" y="-2354.3" font-family="Courier New" font-size="14.00" fill="white">State #7</text>
+<text text-anchor="start" x="769.75" y="-2330.3" font-family="Courier New" font-size="14.00">State -&gt; LALRWRD LSQ SNUM • RSQ COLON LCUR Items RCUR Trans SEP </text>
+<polygon fill="lightgrey" stroke="transparent" points="1329,-2323.9 1329,-2345.9 1435,-2345.9 1435,-2323.9 1329,-2323.9"/>
+<text text-anchor="start" x="1331.59" y="-2330.3" font-family="Courier New" font-size="14.00">EOF LALRWRD </text>
+<text text-anchor="start" x="770" y="-2306.3" font-family="Courier New" font-size="14.00">State -&gt; LALRWRD LSQ SNUM • RSQ COLON LCUR Items RCUR SEP </text>
+<polygon fill="lightgrey" stroke="transparent" points="1329,-2299.9 1329,-2321.9 1435,-2321.9 1435,-2299.9 1329,-2299.9"/>
+<text text-anchor="start" x="1331.59" y="-2306.3" font-family="Courier New" font-size="14.00">EOF LALRWRD </text>
+</g>
+<!-- state6&#45;&gt;state7 -->
+<g id="edge11" class="edge">
+<title>state6-&gt;state7</title>
+<path fill="none" stroke="black" d="M1101,-2429.56C1101,-2415.93 1101,-2400.53 1101,-2386.21"/>
+<polygon fill="black" stroke="black" points="1104.5,-2386.02 1101,-2376.02 1097.5,-2386.02 1104.5,-2386.02"/>
+<text text-anchor="middle" x="1122.98" y="-2398.6" font-family="Helvetica,Arial,sans-serif" font-size="14.00">SNUM </text>
+</g>
+<!-- state8 -->
+<g id="node9" class="node">
+<title>state8</title>
+<path fill="white" stroke="black" d="M769,-2158.1C769,-2158.1 1433,-2158.1 1433,-2158.1 1439,-2158.1 1445,-2164.1 1445,-2170.1 1445,-2170.1 1445,-2228.1 1445,-2228.1 1445,-2234.1 1439,-2240.1 1433,-2240.1 1433,-2240.1 769,-2240.1 769,-2240.1 763,-2240.1 757,-2234.1 757,-2228.1 757,-2228.1 757,-2170.1 757,-2170.1 757,-2164.1 763,-2158.1 769,-2158.1"/>
+<polygon fill="white" stroke="transparent" points="765,-2162.1 765,-2236.1 1437,-2236.1 1437,-2162.1 765,-2162.1"/>
+<polygon fill="black" stroke="transparent" points="767,-2212.1 767,-2234.1 1435,-2234.1 1435,-2212.1 767,-2212.1"/>
+<text text-anchor="start" x="1067.39" y="-2218.5" font-family="Courier New" font-size="14.00" fill="white">State #8</text>
+<text text-anchor="start" x="769.75" y="-2194.5" font-family="Courier New" font-size="14.00">State -&gt; LALRWRD LSQ SNUM RSQ • COLON LCUR Items RCUR Trans SEP </text>
+<polygon fill="lightgrey" stroke="transparent" points="1329,-2188.1 1329,-2210.1 1435,-2210.1 1435,-2188.1 1329,-2188.1"/>
+<text text-anchor="start" x="1331.59" y="-2194.5" font-family="Courier New" font-size="14.00">EOF LALRWRD </text>
+<text text-anchor="start" x="770" y="-2170.5" font-family="Courier New" font-size="14.00">State -&gt; LALRWRD LSQ SNUM RSQ • COLON LCUR Items RCUR SEP </text>
+<polygon fill="lightgrey" stroke="transparent" points="1329,-2164.1 1329,-2186.1 1435,-2186.1 1435,-2164.1 1329,-2164.1"/>
+<text text-anchor="start" x="1331.59" y="-2170.5" font-family="Courier New" font-size="14.00">EOF LALRWRD </text>
+</g>
+<!-- state7&#45;&gt;state8 -->
+<g id="edge12" class="edge">
+<title>state7-&gt;state8</title>
+<path fill="none" stroke="black" d="M1101,-2293.76C1101,-2280.13 1101,-2264.73 1101,-2250.41"/>
+<polygon fill="black" stroke="black" points="1104.5,-2250.22 1101,-2240.22 1097.5,-2250.22 1104.5,-2250.22"/>
+<text text-anchor="middle" x="1116.37" y="-2262.8" font-family="Helvetica,Arial,sans-serif" font-size="14.00">RSQ </text>
+</g>
+<!-- state9 -->
+<g id="node10" class="node">
+<title>state9</title>
+<path fill="white" stroke="black" d="M769,-2022.3C769,-2022.3 1433,-2022.3 1433,-2022.3 1439,-2022.3 1445,-2028.3 1445,-2034.3 1445,-2034.3 1445,-2092.3 1445,-2092.3 1445,-2098.3 1439,-2104.3 1433,-2104.3 1433,-2104.3 769,-2104.3 769,-2104.3 763,-2104.3 757,-2098.3 757,-2092.3 757,-2092.3 757,-2034.3 757,-2034.3 757,-2028.3 763,-2022.3 769,-2022.3"/>
+<polygon fill="white" stroke="transparent" points="765,-2026.3 765,-2100.3 1437,-2100.3 1437,-2026.3 765,-2026.3"/>
+<polygon fill="black" stroke="transparent" points="767,-2076.3 767,-2098.3 1435,-2098.3 1435,-2076.3 767,-2076.3"/>
+<text text-anchor="start" x="1067.39" y="-2082.7" font-family="Courier New" font-size="14.00" fill="white">State #9</text>
+<text text-anchor="start" x="769.75" y="-2058.7" font-family="Courier New" font-size="14.00">State -&gt; LALRWRD LSQ SNUM RSQ COLON • LCUR Items RCUR Trans SEP </text>
+<polygon fill="lightgrey" stroke="transparent" points="1329,-2052.3 1329,-2074.3 1435,-2074.3 1435,-2052.3 1329,-2052.3"/>
+<text text-anchor="start" x="1331.59" y="-2058.7" font-family="Courier New" font-size="14.00">EOF LALRWRD </text>
+<text text-anchor="start" x="770" y="-2034.7" font-family="Courier New" font-size="14.00">State -&gt; LALRWRD LSQ SNUM RSQ COLON • LCUR Items RCUR SEP </text>
+<polygon fill="lightgrey" stroke="transparent" points="1329,-2028.3 1329,-2050.3 1435,-2050.3 1435,-2028.3 1329,-2028.3"/>
+<text text-anchor="start" x="1331.59" y="-2034.7" font-family="Courier New" font-size="14.00">EOF LALRWRD </text>
+</g>
+<!-- state8&#45;&gt;state9 -->
+<g id="edge13" class="edge">
+<title>state8-&gt;state9</title>
+<path fill="none" stroke="black" d="M1101,-2157.96C1101,-2144.33 1101,-2128.93 1101,-2114.61"/>
+<polygon fill="black" stroke="black" points="1104.5,-2114.42 1101,-2104.42 1097.5,-2114.42 1104.5,-2114.42"/>
+<text text-anchor="middle" x="1126.86" y="-2127" font-family="Helvetica,Arial,sans-serif" font-size="14.00">COLON </text>
+</g>
+<!-- state10 -->
+<g id="node11" class="node">
+<title>state10</title>
+<path fill="white" stroke="black" d="M769,-1814.5C769,-1814.5 1433,-1814.5 1433,-1814.5 1439,-1814.5 1445,-1820.5 1445,-1826.5 1445,-1826.5 1445,-1956.5 1445,-1956.5 1445,-1962.5 1439,-1968.5 1433,-1968.5 1433,-1968.5 769,-1968.5 769,-1968.5 763,-1968.5 757,-1962.5 757,-1956.5 757,-1956.5 757,-1826.5 757,-1826.5 757,-1820.5 763,-1814.5 769,-1814.5"/>
+<polygon fill="white" stroke="transparent" points="765,-1818.5 765,-1964.5 1437,-1964.5 1437,-1818.5 765,-1818.5"/>
+<polygon fill="black" stroke="transparent" points="767,-1940.5 767,-1962.5 1435,-1962.5 1435,-1940.5 767,-1940.5"/>
+<text text-anchor="start" x="1063.19" y="-1946.9" font-family="Courier New" font-size="14.00" fill="white">State #10</text>
+<text text-anchor="start" x="770" y="-1922.9" font-family="Courier New" font-size="14.00">Item -&gt; • LSQ ID DERSYM SentForm COMMA LCUR Ids RCUR RSQ </text>
+<polygon fill="lightgrey" stroke="transparent" points="1329,-1916.5 1329,-1938.5 1435,-1938.5 1435,-1916.5 1329,-1916.5"/>
+<text text-anchor="start" x="1332" y="-1922.9" font-family="Courier New" font-size="14.00">LSQ RCUR </text>
+<text text-anchor="start" x="770" y="-1898.9" font-family="Courier New" font-size="14.00">Items -&gt; • Item </text>
+<polygon fill="lightgrey" stroke="transparent" points="1329,-1892.5 1329,-1914.5 1435,-1914.5 1435,-1892.5 1329,-1892.5"/>
+<text text-anchor="start" x="1332" y="-1898.9" font-family="Courier New" font-size="14.00">RCUR </text>
+<text text-anchor="start" x="770" y="-1874.9" font-family="Courier New" font-size="14.00">State -&gt; LALRWRD LSQ SNUM RSQ COLON LCUR • Items RCUR SEP </text>
+<polygon fill="lightgrey" stroke="transparent" points="1329,-1868.5 1329,-1890.5 1435,-1890.5 1435,-1868.5 1329,-1868.5"/>
+<text text-anchor="start" x="1331.59" y="-1874.9" font-family="Courier New" font-size="14.00">EOF LALRWRD </text>
+<text text-anchor="start" x="770" y="-1850.9" font-family="Courier New" font-size="14.00">Items -&gt; • Item Items </text>
+<polygon fill="lightgrey" stroke="transparent" points="1329,-1844.5 1329,-1866.5 1435,-1866.5 1435,-1844.5 1329,-1844.5"/>
+<text text-anchor="start" x="1332" y="-1850.9" font-family="Courier New" font-size="14.00">RCUR </text>
+<text text-anchor="start" x="769.75" y="-1826.9" font-family="Courier New" font-size="14.00">State -&gt; LALRWRD LSQ SNUM RSQ COLON LCUR • Items RCUR Trans SEP </text>
+<polygon fill="lightgrey" stroke="transparent" points="1329,-1820.5 1329,-1842.5 1435,-1842.5 1435,-1820.5 1329,-1820.5"/>
+<text text-anchor="start" x="1331.59" y="-1826.9" font-family="Courier New" font-size="14.00">EOF LALRWRD </text>
+</g>
+<!-- state9&#45;&gt;state10 -->
+<g id="edge14" class="edge">
+<title>state9-&gt;state10</title>
+<path fill="none" stroke="black" d="M1101,-2022.06C1101,-2009.07 1101,-1994.13 1101,-1979.12"/>
+<polygon fill="black" stroke="black" points="1104.5,-1978.74 1101,-1968.74 1097.5,-1978.74 1104.5,-1978.74"/>
+<text text-anchor="middle" x="1121.42" y="-1991.2" font-family="Helvetica,Arial,sans-serif" font-size="14.00">LCUR </text>
+</g>
+<!-- state11 -->
+<g id="node12" class="node">
+<title>state11</title>
+<path fill="white" stroke="black" d="M419,-1446.9C419,-1446.9 999,-1446.9 999,-1446.9 1005,-1446.9 1011,-1452.9 1011,-1458.9 1011,-1458.9 1011,-1492.9 1011,-1492.9 1011,-1498.9 1005,-1504.9 999,-1504.9 999,-1504.9 419,-1504.9 419,-1504.9 413,-1504.9 407,-1498.9 407,-1492.9 407,-1492.9 407,-1458.9 407,-1458.9 407,-1452.9 413,-1446.9 419,-1446.9"/>
+<polygon fill="white" stroke="transparent" points="415,-1450.9 415,-1500.9 1003,-1500.9 1003,-1450.9 415,-1450.9"/>
+<polygon fill="black" stroke="transparent" points="417,-1476.9 417,-1498.9 1001,-1498.9 1001,-1476.9 417,-1476.9"/>
+<text text-anchor="start" x="671.19" y="-1483.3" font-family="Courier New" font-size="14.00" fill="white">State #11</text>
+<text text-anchor="start" x="419.66" y="-1459.3" font-family="Courier New" font-size="14.00">Item -&gt; LSQ • ID DERSYM SentForm COMMA LCUR Ids RCUR RSQ </text>
+<polygon fill="lightgrey" stroke="transparent" points="920,-1452.9 920,-1474.9 1001,-1474.9 1001,-1452.9 920,-1452.9"/>
+<text text-anchor="start" x="922.69" y="-1459.3" font-family="Courier New" font-size="14.00">LSQ RCUR </text>
+</g>
+<!-- state10&#45;&gt;state11 -->
+<g id="edge17" class="edge">
+<title>state10-&gt;state11</title>
+<path fill="none" stroke="black" d="M821.8,-1814.41C798.61,-1799.7 777.44,-1782.14 760.05,-1761.2 701.27,-1690.41 700.52,-1575.05 704.82,-1515.37"/>
+<polygon fill="black" stroke="black" points="708.32,-1515.5 705.64,-1505.25 701.34,-1514.93 708.32,-1515.5"/>
+<text text-anchor="middle" x="774.97" y="-1679.5" font-family="Helvetica,Arial,sans-serif" font-size="14.00">LSQ </text>
+</g>
+<!-- state12 -->
+<g id="node13" class="node">
+<title>state12</title>
+<path fill="white" stroke="black" d="M811,-1606.7C811,-1606.7 1391,-1606.7 1391,-1606.7 1397,-1606.7 1403,-1612.7 1403,-1618.7 1403,-1618.7 1403,-1748.7 1403,-1748.7 1403,-1754.7 1397,-1760.7 1391,-1760.7 1391,-1760.7 811,-1760.7 811,-1760.7 805,-1760.7 799,-1754.7 799,-1748.7 799,-1748.7 799,-1618.7 799,-1618.7 799,-1612.7 805,-1606.7 811,-1606.7"/>
+<polygon fill="white" stroke="transparent" points="807,-1610.7 807,-1756.7 1395,-1756.7 1395,-1610.7 807,-1610.7"/>
+<polygon fill="black" stroke="transparent" points="809,-1732.7 809,-1754.7 1393,-1754.7 1393,-1732.7 809,-1732.7"/>
+<text text-anchor="start" x="1063.19" y="-1739.1" font-family="Courier New" font-size="14.00" fill="white">State #12</text>
+<text text-anchor="start" x="811.66" y="-1715.1" font-family="Courier New" font-size="14.00">Item -&gt; • LSQ ID DERSYM SentForm COMMA LCUR Ids RCUR RSQ </text>
+<polygon fill="lightgrey" stroke="transparent" points="1312,-1708.7 1312,-1730.7 1393,-1730.7 1393,-1708.7 1312,-1708.7"/>
+<text text-anchor="start" x="1314.69" y="-1715.1" font-family="Courier New" font-size="14.00">LSQ RCUR </text>
+<text text-anchor="start" x="812" y="-1691.1" font-family="Courier New" font-size="14.00">Items -&gt; Item • </text>
+<polygon fill="lightgrey" stroke="transparent" points="1312,-1684.7 1312,-1706.7 1393,-1706.7 1393,-1684.7 1312,-1684.7"/>
+<text text-anchor="start" x="1315" y="-1691.1" font-family="Courier New" font-size="14.00">RCUR </text>
+<text text-anchor="start" x="812" y="-1667.1" font-family="Courier New" font-size="14.00">Items -&gt; • Item </text>
+<polygon fill="lightgrey" stroke="transparent" points="1312,-1660.7 1312,-1682.7 1393,-1682.7 1393,-1660.7 1312,-1660.7"/>
+<text text-anchor="start" x="1315" y="-1667.1" font-family="Courier New" font-size="14.00">RCUR </text>
+<text text-anchor="start" x="812" y="-1643.1" font-family="Courier New" font-size="14.00">Items -&gt; Item • Items </text>
+<polygon fill="lightgrey" stroke="transparent" points="1312,-1636.7 1312,-1658.7 1393,-1658.7 1393,-1636.7 1312,-1636.7"/>
+<text text-anchor="start" x="1315" y="-1643.1" font-family="Courier New" font-size="14.00">RCUR </text>
+<text text-anchor="start" x="812" y="-1619.1" font-family="Courier New" font-size="14.00">Items -&gt; • Item Items </text>
+<polygon fill="lightgrey" stroke="transparent" points="1312,-1612.7 1312,-1634.7 1393,-1634.7 1393,-1612.7 1312,-1612.7"/>
+<text text-anchor="start" x="1315" y="-1619.1" font-family="Courier New" font-size="14.00">RCUR </text>
+</g>
+<!-- state10&#45;&gt;state12 -->
+<g id="edge16" class="edge">
+<title>state10-&gt;state12</title>
+<path fill="none" stroke="black" d="M1101,-1814.45C1101,-1800.36 1101,-1785.54 1101,-1771.16"/>
+<polygon fill="black" stroke="black" points="1104.5,-1770.78 1101,-1760.78 1097.5,-1770.78 1104.5,-1770.78"/>
+<text text-anchor="middle" x="1115.58" y="-1783.4" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Item </text>
+</g>
+<!-- state13 -->
+<g id="node14" class="node">
+<title>state13</title>
+<path fill="white" stroke="black" d="M1636,-1642.7C1636,-1642.7 2300,-1642.7 2300,-1642.7 2306,-1642.7 2312,-1648.7 2312,-1654.7 2312,-1654.7 2312,-1712.7 2312,-1712.7 2312,-1718.7 2306,-1724.7 2300,-1724.7 2300,-1724.7 1636,-1724.7 1636,-1724.7 1630,-1724.7 1624,-1718.7 1624,-1712.7 1624,-1712.7 1624,-1654.7 1624,-1654.7 1624,-1648.7 1630,-1642.7 1636,-1642.7"/>
+<polygon fill="white" stroke="transparent" points="1632,-1646.7 1632,-1720.7 2304,-1720.7 2304,-1646.7 1632,-1646.7"/>
+<polygon fill="black" stroke="transparent" points="1634,-1696.7 1634,-1718.7 2302,-1718.7 2302,-1696.7 1634,-1696.7"/>
+<text text-anchor="start" x="1930.19" y="-1703.1" font-family="Courier New" font-size="14.00" fill="white">State #13</text>
+<text text-anchor="start" x="1637" y="-1679.1" font-family="Courier New" font-size="14.00">State -&gt; LALRWRD LSQ SNUM RSQ COLON LCUR Items • RCUR SEP </text>
+<polygon fill="lightgrey" stroke="transparent" points="2196,-1672.7 2196,-1694.7 2302,-1694.7 2302,-1672.7 2196,-1672.7"/>
+<text text-anchor="start" x="2198.59" y="-1679.1" font-family="Courier New" font-size="14.00">EOF LALRWRD </text>
+<text text-anchor="start" x="1636.75" y="-1655.1" font-family="Courier New" font-size="14.00">State -&gt; LALRWRD LSQ SNUM RSQ COLON LCUR Items • RCUR Trans SEP </text>
+<polygon fill="lightgrey" stroke="transparent" points="2196,-1648.7 2196,-1670.7 2302,-1670.7 2302,-1648.7 2196,-1648.7"/>
+<text text-anchor="start" x="2198.59" y="-1655.1" font-family="Courier New" font-size="14.00">EOF LALRWRD </text>
+</g>
+<!-- state10&#45;&gt;state13 -->
+<g id="edge15" class="edge">
+<title>state10-&gt;state13</title>
+<path fill="none" stroke="black" d="M1421.38,-1814.45C1545.69,-1784.94 1683.34,-1752.27 1789.41,-1727.09"/>
+<polygon fill="black" stroke="black" points="1790.33,-1730.47 1799.25,-1724.76 1788.72,-1723.66 1790.33,-1730.47"/>
+<text text-anchor="middle" x="1577.3" y="-1783.4" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Items </text>
+</g>
+<!-- state27 -->
+<g id="node28" class="node">
+<title>state27</title>
+<path fill="white" stroke="black" d="M360,-1239.1C360,-1239.1 940,-1239.1 940,-1239.1 946,-1239.1 952,-1245.1 952,-1251.1 952,-1251.1 952,-1285.1 952,-1285.1 952,-1291.1 946,-1297.1 940,-1297.1 940,-1297.1 360,-1297.1 360,-1297.1 354,-1297.1 348,-1291.1 348,-1285.1 348,-1285.1 348,-1251.1 348,-1251.1 348,-1245.1 354,-1239.1 360,-1239.1"/>
+<polygon fill="white" stroke="transparent" points="356,-1243.1 356,-1293.1 944,-1293.1 944,-1243.1 356,-1243.1"/>
+<polygon fill="black" stroke="transparent" points="358,-1269.1 358,-1291.1 942,-1291.1 942,-1269.1 358,-1269.1"/>
+<text text-anchor="start" x="612.19" y="-1275.5" font-family="Courier New" font-size="14.00" fill="white">State #27</text>
+<text text-anchor="start" x="360.66" y="-1251.5" font-family="Courier New" font-size="14.00">Item -&gt; LSQ ID • DERSYM SentForm COMMA LCUR Ids RCUR RSQ </text>
+<polygon fill="lightgrey" stroke="transparent" points="861,-1245.1 861,-1267.1 942,-1267.1 942,-1245.1 861,-1245.1"/>
+<text text-anchor="start" x="863.69" y="-1251.5" font-family="Courier New" font-size="14.00">LSQ RCUR </text>
+</g>
+<!-- state11&#45;&gt;state27 -->
+<g id="edge18" class="edge">
+<title>state11-&gt;state27</title>
+<path fill="none" stroke="black" d="M700.92,-1446.72C690.53,-1410.49 672.46,-1347.45 660.87,-1307.03"/>
+<polygon fill="black" stroke="black" points="664.2,-1305.92 658.08,-1297.27 657.47,-1307.85 664.2,-1305.92"/>
+<text text-anchor="middle" x="690.14" y="-1367.8" font-family="Helvetica,Arial,sans-serif" font-size="14.00">ID </text>
+</g>
+<!-- state12&#45;&gt;state11 -->
+<g id="edge21" class="edge">
+<title>state12-&gt;state11</title>
+<path fill="none" stroke="black" d="M956.15,-1606.65C892.5,-1573.24 821.11,-1535.76 771.49,-1509.71"/>
+<polygon fill="black" stroke="black" points="772.96,-1506.53 762.48,-1504.98 769.71,-1512.73 772.96,-1506.53"/>
+<text text-anchor="middle" x="930.97" y="-1575.6" font-family="Helvetica,Arial,sans-serif" font-size="14.00">LSQ </text>
+</g>
+<!-- state12&#45;&gt;state12 -->
+<g id="edge20" class="edge">
+<title>state12-&gt;state12</title>
+<path fill="none" stroke="black" d="M1403.34,-1694.69C1414.55,-1691.79 1421,-1688.13 1421,-1683.7 1421,-1680.79 1418.22,-1678.21 1413.15,-1675.97"/>
+<polygon fill="black" stroke="black" points="1413.94,-1672.54 1403.34,-1672.71 1411.73,-1679.19 1413.94,-1672.54"/>
+<text text-anchor="middle" x="1435.58" y="-1679.5" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Item </text>
+</g>
+<!-- state26 -->
+<g id="node27" class="node">
+<title>state26</title>
+<path fill="white" stroke="black" d="M1041.5,-1446.9C1041.5,-1446.9 1294.5,-1446.9 1294.5,-1446.9 1300.5,-1446.9 1306.5,-1452.9 1306.5,-1458.9 1306.5,-1458.9 1306.5,-1492.9 1306.5,-1492.9 1306.5,-1498.9 1300.5,-1504.9 1294.5,-1504.9 1294.5,-1504.9 1041.5,-1504.9 1041.5,-1504.9 1035.5,-1504.9 1029.5,-1498.9 1029.5,-1492.9 1029.5,-1492.9 1029.5,-1458.9 1029.5,-1458.9 1029.5,-1452.9 1035.5,-1446.9 1041.5,-1446.9"/>
+<polygon fill="white" stroke="transparent" points="1037.5,-1450.9 1037.5,-1500.9 1298.5,-1500.9 1298.5,-1450.9 1037.5,-1450.9"/>
+<polygon fill="black" stroke="transparent" points="1040,-1476.9 1040,-1498.9 1297,-1498.9 1297,-1476.9 1040,-1476.9"/>
+<text text-anchor="start" x="1130.69" y="-1483.3" font-family="Courier New" font-size="14.00" fill="white">State #26</text>
+<text text-anchor="start" x="1042.68" y="-1459.3" font-family="Courier New" font-size="14.00">Items -&gt; Item Items • </text>
+<polygon fill="lightgrey" stroke="transparent" points="1249,-1452.9 1249,-1474.9 1297,-1474.9 1297,-1452.9 1249,-1452.9"/>
+<text text-anchor="start" x="1252" y="-1459.3" font-family="Courier New" font-size="14.00">RCUR </text>
+</g>
+<!-- state12&#45;&gt;state26 -->
+<g id="edge19" class="edge">
+<title>state12-&gt;state26</title>
+<path fill="none" stroke="black" d="M1125.76,-1606.65C1135.96,-1575.32 1147.32,-1540.41 1155.69,-1514.7"/>
+<polygon fill="black" stroke="black" points="1159.09,-1515.57 1158.86,-1504.98 1152.44,-1513.4 1159.09,-1515.57"/>
+<text text-anchor="middle" x="1153.3" y="-1575.6" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Items </text>
+</g>
+<!-- state14 -->
+<g id="node15" class="node">
+<title>state14</title>
+<path fill="white" stroke="black" d="M1716,-1398.9C1716,-1398.9 2380,-1398.9 2380,-1398.9 2386,-1398.9 2392,-1404.9 2392,-1410.9 2392,-1410.9 2392,-1540.9 2392,-1540.9 2392,-1546.9 2386,-1552.9 2380,-1552.9 2380,-1552.9 1716,-1552.9 1716,-1552.9 1710,-1552.9 1704,-1546.9 1704,-1540.9 1704,-1540.9 1704,-1410.9 1704,-1410.9 1704,-1404.9 1710,-1398.9 1716,-1398.9"/>
+<polygon fill="white" stroke="transparent" points="1712,-1402.9 1712,-1548.9 2384,-1548.9 2384,-1402.9 1712,-1402.9"/>
+<polygon fill="black" stroke="transparent" points="1714,-1524.9 1714,-1546.9 2382,-1546.9 2382,-1524.9 1714,-1524.9"/>
+<text text-anchor="start" x="2010.19" y="-1531.3" font-family="Courier New" font-size="14.00" fill="white">State #14</text>
+<text text-anchor="start" x="1717" y="-1507.3" font-family="Courier New" font-size="14.00">Trans -&gt; • Tran </text>
+<polygon fill="lightgrey" stroke="transparent" points="2276,-1500.9 2276,-1522.9 2382,-1522.9 2382,-1500.9 2276,-1500.9"/>
+<text text-anchor="start" x="2279" y="-1507.3" font-family="Courier New" font-size="14.00">SEP </text>
+<text text-anchor="start" x="1717" y="-1483.3" font-family="Courier New" font-size="14.00">State -&gt; LALRWRD LSQ SNUM RSQ COLON LCUR Items RCUR • SEP </text>
+<polygon fill="lightgrey" stroke="transparent" points="2276,-1476.9 2276,-1498.9 2382,-1498.9 2382,-1476.9 2276,-1476.9"/>
+<text text-anchor="start" x="2278.59" y="-1483.3" font-family="Courier New" font-size="14.00">EOF LALRWRD </text>
+<text text-anchor="start" x="1717" y="-1459.3" font-family="Courier New" font-size="14.00">Trans -&gt; • Tran Trans </text>
+<polygon fill="lightgrey" stroke="transparent" points="2276,-1452.9 2276,-1474.9 2382,-1474.9 2382,-1452.9 2276,-1452.9"/>
+<text text-anchor="start" x="2279" y="-1459.3" font-family="Courier New" font-size="14.00">SEP </text>
+<text text-anchor="start" x="1717" y="-1435.3" font-family="Courier New" font-size="14.00">Tran -&gt; • TRANWRD ID STATEWRD LSQ SNUM RSQ </text>
+<polygon fill="lightgrey" stroke="transparent" points="2276,-1428.9 2276,-1450.9 2382,-1450.9 2382,-1428.9 2276,-1428.9"/>
+<text text-anchor="start" x="2278.59" y="-1435.3" font-family="Courier New" font-size="14.00">TRANWRD SEP </text>
+<text text-anchor="start" x="1716.75" y="-1411.3" font-family="Courier New" font-size="14.00">State -&gt; LALRWRD LSQ SNUM RSQ COLON LCUR Items RCUR • Trans SEP </text>
+<polygon fill="lightgrey" stroke="transparent" points="2276,-1404.9 2276,-1426.9 2382,-1426.9 2382,-1404.9 2276,-1404.9"/>
+<text text-anchor="start" x="2278.59" y="-1411.3" font-family="Courier New" font-size="14.00">EOF LALRWRD </text>
+</g>
+<!-- state13&#45;&gt;state14 -->
+<g id="edge22" class="edge">
+<title>state13-&gt;state14</title>
+<path fill="none" stroke="black" d="M1983.61,-1642.53C1992.48,-1619.73 2003.93,-1590.27 2014.71,-1562.54"/>
+<polygon fill="black" stroke="black" points="2017.97,-1563.8 2018.33,-1553.21 2011.45,-1561.27 2017.97,-1563.8"/>
+<text text-anchor="middle" x="2030.81" y="-1575.6" font-family="Helvetica,Arial,sans-serif" font-size="14.00">RCUR </text>
+</g>
+<!-- state15 -->
+<g id="node16" class="node">
+<title>state15</title>
+<path fill="white" stroke="black" d="M3087,-1239.1C3087,-1239.1 3701,-1239.1 3701,-1239.1 3707,-1239.1 3713,-1245.1 3713,-1251.1 3713,-1251.1 3713,-1285.1 3713,-1285.1 3713,-1291.1 3707,-1297.1 3701,-1297.1 3701,-1297.1 3087,-1297.1 3087,-1297.1 3081,-1297.1 3075,-1291.1 3075,-1285.1 3075,-1285.1 3075,-1251.1 3075,-1251.1 3075,-1245.1 3081,-1239.1 3087,-1239.1"/>
+<polygon fill="white" stroke="transparent" points="3083,-1243.1 3083,-1293.1 3705,-1293.1 3705,-1243.1 3083,-1243.1"/>
+<polygon fill="black" stroke="transparent" points="3085,-1269.1 3085,-1291.1 3703,-1291.1 3703,-1269.1 3085,-1269.1"/>
+<text text-anchor="start" x="3356.19" y="-1275.5" font-family="Courier New" font-size="14.00" fill="white">State #15</text>
+<text text-anchor="start" x="3087.96" y="-1251.5" font-family="Courier New" font-size="14.00">State -&gt; LALRWRD LSQ SNUM RSQ COLON LCUR Items RCUR SEP • </text>
+<polygon fill="lightgrey" stroke="transparent" points="3597,-1245.1 3597,-1267.1 3703,-1267.1 3703,-1245.1 3597,-1245.1"/>
+<text text-anchor="start" x="3599.59" y="-1251.5" font-family="Courier New" font-size="14.00">EOF LALRWRD </text>
+</g>
+<!-- state14&#45;&gt;state15 -->
+<g id="edge26" class="edge">
+<title>state14-&gt;state15</title>
+<path fill="none" stroke="black" d="M2392.16,-1440.1C2590.03,-1417.86 2842.87,-1385.68 3066,-1345.6 3136.33,-1332.97 3214.27,-1314.96 3276.51,-1299.59"/>
+<polygon fill="black" stroke="black" points="3277.5,-1302.95 3286.37,-1297.15 3275.82,-1296.16 3277.5,-1302.95"/>
+<text text-anchor="middle" x="2969.81" y="-1367.8" font-family="Helvetica,Arial,sans-serif" font-size="14.00">SEP </text>
+</g>
+<!-- state16 -->
+<g id="node17" class="node">
+<title>state16</title>
+<path fill="white" stroke="black" d="M1804,-1191.1C1804,-1191.1 2292,-1191.1 2292,-1191.1 2298,-1191.1 2304,-1197.1 2304,-1203.1 2304,-1203.1 2304,-1333.1 2304,-1333.1 2304,-1339.1 2298,-1345.1 2292,-1345.1 2292,-1345.1 1804,-1345.1 1804,-1345.1 1798,-1345.1 1792,-1339.1 1792,-1333.1 1792,-1333.1 1792,-1203.1 1792,-1203.1 1792,-1197.1 1798,-1191.1 1804,-1191.1"/>
+<polygon fill="white" stroke="transparent" points="1800,-1195.1 1800,-1341.1 2296,-1341.1 2296,-1195.1 1800,-1195.1"/>
+<polygon fill="black" stroke="transparent" points="1802,-1317.1 1802,-1339.1 2294,-1339.1 2294,-1317.1 1802,-1317.1"/>
+<text text-anchor="start" x="2010.19" y="-1323.5" font-family="Courier New" font-size="14.00" fill="white">State #16</text>
+<text text-anchor="start" x="1805" y="-1299.5" font-family="Courier New" font-size="14.00">Trans -&gt; Tran • </text>
+<polygon fill="lightgrey" stroke="transparent" points="2188,-1293.1 2188,-1315.1 2294,-1315.1 2294,-1293.1 2188,-1293.1"/>
+<text text-anchor="start" x="2191" y="-1299.5" font-family="Courier New" font-size="14.00">SEP </text>
+<text text-anchor="start" x="1805" y="-1275.5" font-family="Courier New" font-size="14.00">Trans -&gt; • Tran </text>
+<polygon fill="lightgrey" stroke="transparent" points="2188,-1269.1 2188,-1291.1 2294,-1291.1 2294,-1269.1 2188,-1269.1"/>
+<text text-anchor="start" x="2191" y="-1275.5" font-family="Courier New" font-size="14.00">SEP </text>
+<text text-anchor="start" x="1805" y="-1251.5" font-family="Courier New" font-size="14.00">Trans -&gt; Tran • Trans </text>
+<polygon fill="lightgrey" stroke="transparent" points="2188,-1245.1 2188,-1267.1 2294,-1267.1 2294,-1245.1 2188,-1245.1"/>
+<text text-anchor="start" x="2191" y="-1251.5" font-family="Courier New" font-size="14.00">SEP </text>
+<text text-anchor="start" x="1805" y="-1227.5" font-family="Courier New" font-size="14.00">Trans -&gt; • Tran Trans </text>
+<polygon fill="lightgrey" stroke="transparent" points="2188,-1221.1 2188,-1243.1 2294,-1243.1 2294,-1221.1 2188,-1221.1"/>
+<text text-anchor="start" x="2191" y="-1227.5" font-family="Courier New" font-size="14.00">SEP </text>
+<text text-anchor="start" x="1804.97" y="-1203.5" font-family="Courier New" font-size="14.00">Tran -&gt; • TRANWRD ID STATEWRD LSQ SNUM RSQ </text>
+<polygon fill="lightgrey" stroke="transparent" points="2188,-1197.1 2188,-1219.1 2294,-1219.1 2294,-1197.1 2188,-1197.1"/>
+<text text-anchor="start" x="2190.59" y="-1203.5" font-family="Courier New" font-size="14.00">TRANWRD SEP </text>
+</g>
+<!-- state14&#45;&gt;state16 -->
+<g id="edge25" class="edge">
+<title>state14-&gt;state16</title>
+<path fill="none" stroke="black" d="M2048,-1398.85C2048,-1384.76 2048,-1369.94 2048,-1355.56"/>
+<polygon fill="black" stroke="black" points="2051.5,-1355.18 2048,-1345.18 2044.5,-1355.18 2051.5,-1355.18"/>
+<text text-anchor="middle" x="2062.96" y="-1367.8" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Tran </text>
+</g>
+<!-- state17 -->
+<g id="node18" class="node">
+<title>state17</title>
+<path fill="white" stroke="black" d="M1457,-1007.3C1457,-1007.3 1945,-1007.3 1945,-1007.3 1951,-1007.3 1957,-1013.3 1957,-1019.3 1957,-1019.3 1957,-1053.3 1957,-1053.3 1957,-1059.3 1951,-1065.3 1945,-1065.3 1945,-1065.3 1457,-1065.3 1457,-1065.3 1451,-1065.3 1445,-1059.3 1445,-1053.3 1445,-1053.3 1445,-1019.3 1445,-1019.3 1445,-1013.3 1451,-1007.3 1457,-1007.3"/>
+<polygon fill="white" stroke="transparent" points="1453,-1011.3 1453,-1061.3 1949,-1061.3 1949,-1011.3 1453,-1011.3"/>
+<polygon fill="black" stroke="transparent" points="1455,-1037.3 1455,-1059.3 1947,-1059.3 1947,-1037.3 1455,-1037.3"/>
+<text text-anchor="start" x="1663.19" y="-1043.7" font-family="Courier New" font-size="14.00" fill="white">State #17</text>
+<text text-anchor="start" x="1457.97" y="-1019.7" font-family="Courier New" font-size="14.00">Tran -&gt; TRANWRD • ID STATEWRD LSQ SNUM RSQ </text>
+<polygon fill="lightgrey" stroke="transparent" points="1841,-1013.3 1841,-1035.3 1947,-1035.3 1947,-1013.3 1841,-1013.3"/>
+<text text-anchor="start" x="1843.59" y="-1019.7" font-family="Courier New" font-size="14.00">TRANWRD SEP </text>
+</g>
+<!-- state14&#45;&gt;state17 -->
+<g id="edge24" class="edge">
+<title>state14-&gt;state17</title>
+<path fill="none" stroke="black" d="M1763.25,-1398.86C1742.28,-1384.14 1723.57,-1366.57 1708.73,-1345.6 1651.16,-1264.25 1673.22,-1138.21 1689.55,-1075.47"/>
+<polygon fill="black" stroke="black" points="1692.99,-1076.17 1692.21,-1065.6 1686.23,-1074.35 1692.99,-1076.17"/>
+<text text-anchor="middle" x="1745.14" y="-1263.9" font-family="Helvetica,Arial,sans-serif" font-size="14.00">TRANWRD </text>
+</g>
+<!-- state18 -->
+<g id="node19" class="node">
+<title>state18</title>
+<path fill="white" stroke="black" d="M2381,-1239.1C2381,-1239.1 3045,-1239.1 3045,-1239.1 3051,-1239.1 3057,-1245.1 3057,-1251.1 3057,-1251.1 3057,-1285.1 3057,-1285.1 3057,-1291.1 3051,-1297.1 3045,-1297.1 3045,-1297.1 2381,-1297.1 2381,-1297.1 2375,-1297.1 2369,-1291.1 2369,-1285.1 2369,-1285.1 2369,-1251.1 2369,-1251.1 2369,-1245.1 2375,-1239.1 2381,-1239.1"/>
+<polygon fill="white" stroke="transparent" points="2377,-1243.1 2377,-1293.1 3049,-1293.1 3049,-1243.1 2377,-1243.1"/>
+<polygon fill="black" stroke="transparent" points="2379,-1269.1 2379,-1291.1 3047,-1291.1 3047,-1269.1 2379,-1269.1"/>
+<text text-anchor="start" x="2675.19" y="-1275.5" font-family="Courier New" font-size="14.00" fill="white">State #18</text>
+<text text-anchor="start" x="2381.75" y="-1251.5" font-family="Courier New" font-size="14.00">State -&gt; LALRWRD LSQ SNUM RSQ COLON LCUR Items RCUR Trans • SEP </text>
+<polygon fill="lightgrey" stroke="transparent" points="2941,-1245.1 2941,-1267.1 3047,-1267.1 3047,-1245.1 2941,-1245.1"/>
+<text text-anchor="start" x="2943.59" y="-1251.5" font-family="Courier New" font-size="14.00">EOF LALRWRD </text>
+</g>
+<!-- state14&#45;&gt;state18 -->
+<g id="edge23" class="edge">
+<title>state14-&gt;state18</title>
+<path fill="none" stroke="black" d="M2293.73,-1398.85C2404.17,-1364.67 2528.34,-1326.25 2612.7,-1300.14"/>
+<polygon fill="black" stroke="black" points="2613.75,-1303.48 2622.27,-1297.18 2611.68,-1296.79 2613.75,-1303.48"/>
+<text text-anchor="middle" x="2417.69" y="-1367.8" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Trans </text>
+</g>
+<!-- state16&#45;&gt;state16 -->
+<g id="edge29" class="edge">
+<title>state16-&gt;state16</title>
+<path fill="none" stroke="black" d="M2304.19,-1279.85C2315.44,-1276.85 2322,-1272.93 2322,-1268.1 2322,-1264.85 2319.04,-1262.02 2313.69,-1259.6"/>
+<polygon fill="black" stroke="black" points="2314.79,-1256.28 2304.19,-1256.35 2312.52,-1262.9 2314.79,-1256.28"/>
+<text text-anchor="middle" x="2336.96" y="-1263.9" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Tran </text>
+</g>
+<!-- state16&#45;&gt;state17 -->
+<g id="edge28" class="edge">
+<title>state16-&gt;state17</title>
+<path fill="none" stroke="black" d="M1932.94,-1190.9C1871.65,-1150.31 1799.34,-1102.43 1751.96,-1071.05"/>
+<polygon fill="black" stroke="black" points="1753.68,-1067.99 1743.41,-1065.38 1749.81,-1073.82 1753.68,-1067.99"/>
+<text text-anchor="middle" x="1932.14" y="-1160" font-family="Helvetica,Arial,sans-serif" font-size="14.00">TRANWRD </text>
+</g>
+<!-- state25 -->
+<g id="node26" class="node">
+<title>state25</title>
+<path fill="white" stroke="black" d="M1987,-1007.3C1987,-1007.3 2231,-1007.3 2231,-1007.3 2237,-1007.3 2243,-1013.3 2243,-1019.3 2243,-1019.3 2243,-1053.3 2243,-1053.3 2243,-1059.3 2237,-1065.3 2231,-1065.3 2231,-1065.3 1987,-1065.3 1987,-1065.3 1981,-1065.3 1975,-1059.3 1975,-1053.3 1975,-1053.3 1975,-1019.3 1975,-1019.3 1975,-1013.3 1981,-1007.3 1987,-1007.3"/>
+<polygon fill="white" stroke="transparent" points="1983,-1011.3 1983,-1061.3 2235,-1061.3 2235,-1011.3 1983,-1011.3"/>
+<polygon fill="black" stroke="transparent" points="1985,-1037.3 1985,-1059.3 2233,-1059.3 2233,-1037.3 1985,-1037.3"/>
+<text text-anchor="start" x="2071.19" y="-1043.7" font-family="Courier New" font-size="14.00" fill="white">State #25</text>
+<text text-anchor="start" x="1987.68" y="-1019.7" font-family="Courier New" font-size="14.00">Trans -&gt; Tran Trans • </text>
+<polygon fill="lightgrey" stroke="transparent" points="2194,-1013.3 2194,-1035.3 2233,-1035.3 2233,-1013.3 2194,-1013.3"/>
+<text text-anchor="start" x="2196.7" y="-1019.7" font-family="Courier New" font-size="14.00">SEP </text>
+</g>
+<!-- state16&#45;&gt;state25 -->
+<g id="edge27" class="edge">
+<title>state16-&gt;state25</title>
+<path fill="none" stroke="black" d="M2068.23,-1190.9C2078.51,-1152.16 2090.56,-1106.78 2098.87,-1075.44"/>
+<polygon fill="black" stroke="black" points="2102.36,-1075.95 2101.55,-1065.38 2095.6,-1074.15 2102.36,-1075.95"/>
+<text text-anchor="middle" x="2093.69" y="-1160" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Trans </text>
+</g>
+<!-- state20 -->
+<g id="node21" class="node">
+<title>state20</title>
+<path fill="white" stroke="black" d="M1459,-787.5C1459,-787.5 1947,-787.5 1947,-787.5 1953,-787.5 1959,-793.5 1959,-799.5 1959,-799.5 1959,-833.5 1959,-833.5 1959,-839.5 1953,-845.5 1947,-845.5 1947,-845.5 1459,-845.5 1459,-845.5 1453,-845.5 1447,-839.5 1447,-833.5 1447,-833.5 1447,-799.5 1447,-799.5 1447,-793.5 1453,-787.5 1459,-787.5"/>
+<polygon fill="white" stroke="transparent" points="1455,-791.5 1455,-841.5 1951,-841.5 1951,-791.5 1455,-791.5"/>
+<polygon fill="black" stroke="transparent" points="1457,-817.5 1457,-839.5 1949,-839.5 1949,-817.5 1457,-817.5"/>
+<text text-anchor="start" x="1665.19" y="-823.9" font-family="Courier New" font-size="14.00" fill="white">State #20</text>
+<text text-anchor="start" x="1459.97" y="-799.9" font-family="Courier New" font-size="14.00">Tran -&gt; TRANWRD ID • STATEWRD LSQ SNUM RSQ </text>
+<polygon fill="lightgrey" stroke="transparent" points="1843,-793.5 1843,-815.5 1949,-815.5 1949,-793.5 1843,-793.5"/>
+<text text-anchor="start" x="1845.59" y="-799.9" font-family="Courier New" font-size="14.00">TRANWRD SEP </text>
+</g>
+<!-- state17&#45;&gt;state20 -->
+<g id="edge30" class="edge">
+<title>state17-&gt;state20</title>
+<path fill="none" stroke="black" d="M1701.26,-1007.27C1701.61,-968.74 1702.25,-899.27 1702.65,-855.92"/>
+<polygon fill="black" stroke="black" points="1706.15,-855.8 1702.74,-845.77 1699.15,-855.73 1706.15,-855.8"/>
+<text text-anchor="middle" x="1711.14" y="-904.2" font-family="Helvetica,Arial,sans-serif" font-size="14.00">ID </text>
+</g>
+<!-- state19 -->
+<g id="node20" class="node">
+<title>state19</title>
+<path fill="white" stroke="black" d="M2381,-1007.3C2381,-1007.3 3045,-1007.3 3045,-1007.3 3051,-1007.3 3057,-1013.3 3057,-1019.3 3057,-1019.3 3057,-1053.3 3057,-1053.3 3057,-1059.3 3051,-1065.3 3045,-1065.3 3045,-1065.3 2381,-1065.3 2381,-1065.3 2375,-1065.3 2369,-1059.3 2369,-1053.3 2369,-1053.3 2369,-1019.3 2369,-1019.3 2369,-1013.3 2375,-1007.3 2381,-1007.3"/>
+<polygon fill="white" stroke="transparent" points="2377,-1011.3 2377,-1061.3 3049,-1061.3 3049,-1011.3 2377,-1011.3"/>
+<polygon fill="black" stroke="transparent" points="2379,-1037.3 2379,-1059.3 3047,-1059.3 3047,-1037.3 2379,-1037.3"/>
+<text text-anchor="start" x="2675.19" y="-1043.7" font-family="Courier New" font-size="14.00" fill="white">State #19</text>
+<text text-anchor="start" x="2381.75" y="-1019.7" font-family="Courier New" font-size="14.00">State -&gt; LALRWRD LSQ SNUM RSQ COLON LCUR Items RCUR Trans SEP • </text>
+<polygon fill="lightgrey" stroke="transparent" points="2941,-1013.3 2941,-1035.3 3047,-1035.3 3047,-1013.3 2941,-1013.3"/>
+<text text-anchor="start" x="2943.59" y="-1019.7" font-family="Courier New" font-size="14.00">EOF LALRWRD </text>
+</g>
+<!-- state18&#45;&gt;state19 -->
+<g id="edge31" class="edge">
+<title>state18-&gt;state19</title>
+<path fill="none" stroke="black" d="M2713,-1238.92C2713,-1197.89 2713,-1121.59 2713,-1075.53"/>
+<polygon fill="black" stroke="black" points="2716.5,-1075.35 2713,-1065.35 2709.5,-1075.35 2716.5,-1075.35"/>
+<text text-anchor="middle" x="2726.81" y="-1160" font-family="Helvetica,Arial,sans-serif" font-size="14.00">SEP </text>
+</g>
+<!-- state21 -->
+<g id="node22" class="node">
+<title>state21</title>
+<path fill="white" stroke="black" d="M1459,-603.7C1459,-603.7 1947,-603.7 1947,-603.7 1953,-603.7 1959,-609.7 1959,-615.7 1959,-615.7 1959,-649.7 1959,-649.7 1959,-655.7 1953,-661.7 1947,-661.7 1947,-661.7 1459,-661.7 1459,-661.7 1453,-661.7 1447,-655.7 1447,-649.7 1447,-649.7 1447,-615.7 1447,-615.7 1447,-609.7 1453,-603.7 1459,-603.7"/>
+<polygon fill="white" stroke="transparent" points="1455,-607.7 1455,-657.7 1951,-657.7 1951,-607.7 1455,-607.7"/>
+<polygon fill="black" stroke="transparent" points="1457,-633.7 1457,-655.7 1949,-655.7 1949,-633.7 1457,-633.7"/>
+<text text-anchor="start" x="1665.19" y="-640.1" font-family="Courier New" font-size="14.00" fill="white">State #21</text>
+<text text-anchor="start" x="1459.97" y="-616.1" font-family="Courier New" font-size="14.00">Tran -&gt; TRANWRD ID STATEWRD • LSQ SNUM RSQ </text>
+<polygon fill="lightgrey" stroke="transparent" points="1843,-609.7 1843,-631.7 1949,-631.7 1949,-609.7 1843,-609.7"/>
+<text text-anchor="start" x="1845.59" y="-616.1" font-family="Courier New" font-size="14.00">TRANWRD SEP </text>
+</g>
+<!-- state20&#45;&gt;state21 -->
+<g id="edge32" class="edge">
+<title>state20-&gt;state21</title>
+<path fill="none" stroke="black" d="M1703,-787.49C1703,-756.53 1703,-706.48 1703,-671.93"/>
+<polygon fill="black" stroke="black" points="1706.5,-671.74 1703,-661.74 1699.5,-671.74 1706.5,-671.74"/>
+<text text-anchor="middle" x="1742.86" y="-720.4" font-family="Helvetica,Arial,sans-serif" font-size="14.00">STATEWRD </text>
+</g>
+<!-- state22 -->
+<g id="node23" class="node">
+<title>state22</title>
+<path fill="white" stroke="black" d="M1459,-431.9C1459,-431.9 1947,-431.9 1947,-431.9 1953,-431.9 1959,-437.9 1959,-443.9 1959,-443.9 1959,-477.9 1959,-477.9 1959,-483.9 1953,-489.9 1947,-489.9 1947,-489.9 1459,-489.9 1459,-489.9 1453,-489.9 1447,-483.9 1447,-477.9 1447,-477.9 1447,-443.9 1447,-443.9 1447,-437.9 1453,-431.9 1459,-431.9"/>
+<polygon fill="white" stroke="transparent" points="1455,-435.9 1455,-485.9 1951,-485.9 1951,-435.9 1455,-435.9"/>
+<polygon fill="black" stroke="transparent" points="1457,-461.9 1457,-483.9 1949,-483.9 1949,-461.9 1457,-461.9"/>
+<text text-anchor="start" x="1665.19" y="-468.3" font-family="Courier New" font-size="14.00" fill="white">State #22</text>
+<text text-anchor="start" x="1459.97" y="-444.3" font-family="Courier New" font-size="14.00">Tran -&gt; TRANWRD ID STATEWRD LSQ • SNUM RSQ </text>
+<polygon fill="lightgrey" stroke="transparent" points="1843,-437.9 1843,-459.9 1949,-459.9 1949,-437.9 1843,-437.9"/>
+<text text-anchor="start" x="1845.59" y="-444.3" font-family="Courier New" font-size="14.00">TRANWRD SEP </text>
+</g>
+<!-- state21&#45;&gt;state22 -->
+<g id="edge33" class="edge">
+<title>state21-&gt;state22</title>
+<path fill="none" stroke="black" d="M1703,-603.66C1703,-575.4 1703,-531.57 1703,-500.13"/>
+<polygon fill="black" stroke="black" points="1706.5,-499.98 1703,-489.98 1699.5,-499.98 1706.5,-499.98"/>
+<text text-anchor="middle" x="1717.97" y="-536.6" font-family="Helvetica,Arial,sans-serif" font-size="14.00">LSQ </text>
+</g>
+<!-- state23 -->
+<g id="node24" class="node">
+<title>state23</title>
+<path fill="white" stroke="black" d="M1459,-260.1C1459,-260.1 1947,-260.1 1947,-260.1 1953,-260.1 1959,-266.1 1959,-272.1 1959,-272.1 1959,-306.1 1959,-306.1 1959,-312.1 1953,-318.1 1947,-318.1 1947,-318.1 1459,-318.1 1459,-318.1 1453,-318.1 1447,-312.1 1447,-306.1 1447,-306.1 1447,-272.1 1447,-272.1 1447,-266.1 1453,-260.1 1459,-260.1"/>
+<polygon fill="white" stroke="transparent" points="1455,-264.1 1455,-314.1 1951,-314.1 1951,-264.1 1455,-264.1"/>
+<polygon fill="black" stroke="transparent" points="1457,-290.1 1457,-312.1 1949,-312.1 1949,-290.1 1457,-290.1"/>
+<text text-anchor="start" x="1665.19" y="-296.5" font-family="Courier New" font-size="14.00" fill="white">State #23</text>
+<text text-anchor="start" x="1459.97" y="-272.5" font-family="Courier New" font-size="14.00">Tran -&gt; TRANWRD ID STATEWRD LSQ SNUM • RSQ </text>
+<polygon fill="lightgrey" stroke="transparent" points="1843,-266.1 1843,-288.1 1949,-288.1 1949,-266.1 1843,-266.1"/>
+<text text-anchor="start" x="1845.59" y="-272.5" font-family="Courier New" font-size="14.00">TRANWRD SEP </text>
+</g>
+<!-- state22&#45;&gt;state23 -->
+<g id="edge34" class="edge">
+<title>state22-&gt;state23</title>
+<path fill="none" stroke="black" d="M1703,-431.86C1703,-403.6 1703,-359.77 1703,-328.33"/>
+<polygon fill="black" stroke="black" points="1706.5,-328.18 1703,-318.18 1699.5,-328.18 1706.5,-328.18"/>
+<text text-anchor="middle" x="1724.98" y="-376.8" font-family="Helvetica,Arial,sans-serif" font-size="14.00">SNUM </text>
+</g>
+<!-- state24 -->
+<g id="node25" class="node">
+<title>state24</title>
+<path fill="white" stroke="black" d="M1459,-112.3C1459,-112.3 1947,-112.3 1947,-112.3 1953,-112.3 1959,-118.3 1959,-124.3 1959,-124.3 1959,-158.3 1959,-158.3 1959,-164.3 1953,-170.3 1947,-170.3 1947,-170.3 1459,-170.3 1459,-170.3 1453,-170.3 1447,-164.3 1447,-158.3 1447,-158.3 1447,-124.3 1447,-124.3 1447,-118.3 1453,-112.3 1459,-112.3"/>
+<polygon fill="white" stroke="transparent" points="1455,-116.3 1455,-166.3 1951,-166.3 1951,-116.3 1455,-116.3"/>
+<polygon fill="black" stroke="transparent" points="1457,-142.3 1457,-164.3 1949,-164.3 1949,-142.3 1457,-142.3"/>
+<text text-anchor="start" x="1665.19" y="-148.7" font-family="Courier New" font-size="14.00" fill="white">State #24</text>
+<text text-anchor="start" x="1459.97" y="-124.7" font-family="Courier New" font-size="14.00">Tran -&gt; TRANWRD ID STATEWRD LSQ SNUM RSQ • </text>
+<polygon fill="lightgrey" stroke="transparent" points="1843,-118.3 1843,-140.3 1949,-140.3 1949,-118.3 1843,-118.3"/>
+<text text-anchor="start" x="1845.59" y="-124.7" font-family="Courier New" font-size="14.00">TRANWRD SEP </text>
+</g>
+<!-- state23&#45;&gt;state24 -->
+<g id="edge35" class="edge">
+<title>state23-&gt;state24</title>
+<path fill="none" stroke="black" d="M1703,-259.99C1703,-237.4 1703,-205.44 1703,-180.52"/>
+<polygon fill="black" stroke="black" points="1706.5,-180.33 1703,-170.33 1699.5,-180.33 1706.5,-180.33"/>
+<text text-anchor="middle" x="1718.37" y="-193" font-family="Helvetica,Arial,sans-serif" font-size="14.00">RSQ </text>
+</g>
+<!-- state28 -->
+<g id="node29" class="node">
+<title>state28</title>
+<path fill="white" stroke="black" d="M345,-935.3C345,-935.3 925,-935.3 925,-935.3 931,-935.3 937,-941.3 937,-947.3 937,-947.3 937,-1125.3 937,-1125.3 937,-1131.3 931,-1137.3 925,-1137.3 925,-1137.3 345,-1137.3 345,-1137.3 339,-1137.3 333,-1131.3 333,-1125.3 333,-1125.3 333,-947.3 333,-947.3 333,-941.3 339,-935.3 345,-935.3"/>
+<polygon fill="white" stroke="transparent" points="341,-939.3 341,-1133.3 929,-1133.3 929,-939.3 341,-939.3"/>
+<polygon fill="black" stroke="transparent" points="343,-1109.3 343,-1131.3 927,-1131.3 927,-1109.3 343,-1109.3"/>
+<text text-anchor="start" x="597.19" y="-1115.7" font-family="Courier New" font-size="14.00" fill="white">State #28</text>
+<text text-anchor="start" x="346" y="-1091.7" font-family="Courier New" font-size="14.00">Ids -&gt; • ID Ids </text>
+<polygon fill="lightgrey" stroke="transparent" points="846,-1085.3 846,-1107.3 927,-1107.3 927,-1085.3 846,-1085.3"/>
+<text text-anchor="start" x="849" y="-1091.7" font-family="Courier New" font-size="14.00">DOTSYM </text>
+<text text-anchor="start" x="346" y="-1067.7" font-family="Courier New" font-size="14.00">SentForm -&gt; • Ids DOTSYM </text>
+<polygon fill="lightgrey" stroke="transparent" points="846,-1061.3 846,-1083.3 927,-1083.3 927,-1061.3 846,-1061.3"/>
+<text text-anchor="start" x="849" y="-1067.7" font-family="Courier New" font-size="14.00">COMMA </text>
+<text text-anchor="start" x="346" y="-1043.7" font-family="Courier New" font-size="14.00">SentForm -&gt; • DOTSYM </text>
+<polygon fill="lightgrey" stroke="transparent" points="846,-1037.3 846,-1059.3 927,-1059.3 927,-1037.3 846,-1037.3"/>
+<text text-anchor="start" x="849" y="-1043.7" font-family="Courier New" font-size="14.00">COMMA </text>
+<text text-anchor="start" x="346" y="-1019.7" font-family="Courier New" font-size="14.00">SentForm -&gt; • DOTSYM Ids </text>
+<polygon fill="lightgrey" stroke="transparent" points="846,-1013.3 846,-1035.3 927,-1035.3 927,-1013.3 846,-1013.3"/>
+<text text-anchor="start" x="849" y="-1019.7" font-family="Courier New" font-size="14.00">COMMA </text>
+<text text-anchor="start" x="345.66" y="-995.7" font-family="Courier New" font-size="14.00">Item -&gt; LSQ ID DERSYM • SentForm COMMA LCUR Ids RCUR RSQ </text>
+<polygon fill="lightgrey" stroke="transparent" points="846,-989.3 846,-1011.3 927,-1011.3 927,-989.3 846,-989.3"/>
+<text text-anchor="start" x="848.69" y="-995.7" font-family="Courier New" font-size="14.00">LSQ RCUR </text>
+<text text-anchor="start" x="346" y="-971.7" font-family="Courier New" font-size="14.00">Ids -&gt; • ID </text>
+<polygon fill="lightgrey" stroke="transparent" points="846,-965.3 846,-987.3 927,-987.3 927,-965.3 846,-965.3"/>
+<text text-anchor="start" x="849" y="-971.7" font-family="Courier New" font-size="14.00">DOTSYM </text>
+<text text-anchor="start" x="346" y="-947.7" font-family="Courier New" font-size="14.00">SentForm -&gt; • Ids DOTSYM Ids </text>
+<polygon fill="lightgrey" stroke="transparent" points="846,-941.3 846,-963.3 927,-963.3 927,-941.3 846,-941.3"/>
+<text text-anchor="start" x="849" y="-947.7" font-family="Courier New" font-size="14.00">COMMA </text>
+</g>
+<!-- state27&#45;&gt;state28 -->
+<g id="edge36" class="edge">
+<title>state27-&gt;state28</title>
+<path fill="none" stroke="black" d="M648.16,-1238.92C646.65,-1215.74 644.4,-1181.3 642.19,-1147.42"/>
+<polygon fill="black" stroke="black" points="645.68,-1147.17 641.53,-1137.41 638.69,-1147.62 645.68,-1147.17"/>
+<text text-anchor="middle" x="673.92" y="-1160" font-family="Helvetica,Arial,sans-serif" font-size="14.00">DERSYM </text>
+</g>
+<!-- state29 -->
+<g id="node30" class="node">
+<title>state29</title>
+<path fill="white" stroke="black" d="M199,-224.1C199,-224.1 511,-224.1 511,-224.1 517,-224.1 523,-230.1 523,-236.1 523,-236.1 523,-342.1 523,-342.1 523,-348.1 517,-354.1 511,-354.1 511,-354.1 199,-354.1 199,-354.1 193,-354.1 187,-348.1 187,-342.1 187,-342.1 187,-236.1 187,-236.1 187,-230.1 193,-224.1 199,-224.1"/>
+<polygon fill="white" stroke="transparent" points="195,-228.1 195,-350.1 515,-350.1 515,-228.1 195,-228.1"/>
+<polygon fill="black" stroke="transparent" points="197,-326.1 197,-348.1 513,-348.1 513,-326.1 197,-326.1"/>
+<text text-anchor="start" x="317.19" y="-332.5" font-family="Courier New" font-size="14.00" fill="white">State #29</text>
+<text text-anchor="start" x="199.89" y="-308.5" font-family="Courier New" font-size="14.00">Ids -&gt; ID • Ids </text>
+<polygon fill="lightgrey" stroke="transparent" points="356,-302.1 356,-324.1 513,-324.1 513,-302.1 356,-302.1"/>
+<text text-anchor="start" x="358.89" y="-308.5" font-family="Courier New" font-size="14.00">RCUR COMMA DOTSYM </text>
+<text text-anchor="start" x="199.89" y="-284.5" font-family="Courier New" font-size="14.00">Ids -&gt; • ID Ids </text>
+<polygon fill="lightgrey" stroke="transparent" points="356,-278.1 356,-300.1 513,-300.1 513,-278.1 356,-278.1"/>
+<text text-anchor="start" x="358.89" y="-284.5" font-family="Courier New" font-size="14.00">RCUR COMMA DOTSYM </text>
+<text text-anchor="start" x="200" y="-260.5" font-family="Courier New" font-size="14.00">Ids -&gt; ID • </text>
+<polygon fill="lightgrey" stroke="transparent" points="356,-254.1 356,-276.1 513,-276.1 513,-254.1 356,-254.1"/>
+<text text-anchor="start" x="358.89" y="-260.5" font-family="Courier New" font-size="14.00">RCUR COMMA DOTSYM </text>
+<text text-anchor="start" x="200" y="-236.5" font-family="Courier New" font-size="14.00">Ids -&gt; • ID </text>
+<polygon fill="lightgrey" stroke="transparent" points="356,-230.1 356,-252.1 513,-252.1 513,-230.1 356,-230.1"/>
+<text text-anchor="start" x="358.89" y="-236.5" font-family="Courier New" font-size="14.00">RCUR COMMA DOTSYM </text>
+</g>
+<!-- state28&#45;&gt;state29 -->
+<g id="edge40" class="edge">
+<title>state28-&gt;state29</title>
+<path fill="none" stroke="black" d="M332.87,-973.55C194.59,-936.32 61,-883.32 61,-817.5 61,-817.5 61,-817.5 61,-459.9 61,-395 115.38,-354.52 177.36,-329.46"/>
+<polygon fill="black" stroke="black" points="178.91,-332.61 186.96,-325.72 176.37,-326.09 178.91,-332.61"/>
+<text text-anchor="middle" x="70.14" y="-628.5" font-family="Helvetica,Arial,sans-serif" font-size="14.00">ID </text>
+</g>
+<!-- state30 -->
+<g id="node31" class="node">
+<title>state30</title>
+<path fill="white" stroke="black" d="M475,-775.5C475,-775.5 795,-775.5 795,-775.5 801,-775.5 807,-781.5 807,-787.5 807,-787.5 807,-845.5 807,-845.5 807,-851.5 801,-857.5 795,-857.5 795,-857.5 475,-857.5 475,-857.5 469,-857.5 463,-851.5 463,-845.5 463,-845.5 463,-787.5 463,-787.5 463,-781.5 469,-775.5 475,-775.5"/>
+<polygon fill="white" stroke="transparent" points="471,-779.5 471,-853.5 799,-853.5 799,-779.5 471,-779.5"/>
+<polygon fill="black" stroke="transparent" points="473,-829.5 473,-851.5 797,-851.5 797,-829.5 473,-829.5"/>
+<text text-anchor="start" x="597.19" y="-835.9" font-family="Courier New" font-size="14.00" fill="white">State #30</text>
+<text text-anchor="start" x="476" y="-811.9" font-family="Courier New" font-size="14.00">SentForm -&gt; Ids • DOTSYM </text>
+<polygon fill="lightgrey" stroke="transparent" points="741,-805.5 741,-827.5 797,-827.5 797,-805.5 741,-805.5"/>
+<text text-anchor="start" x="743.8" y="-811.9" font-family="Courier New" font-size="14.00">COMMA </text>
+<text text-anchor="start" x="475.78" y="-787.9" font-family="Courier New" font-size="14.00">SentForm -&gt; Ids • DOTSYM Ids </text>
+<polygon fill="lightgrey" stroke="transparent" points="741,-781.5 741,-803.5 797,-803.5 797,-781.5 741,-781.5"/>
+<text text-anchor="start" x="743.8" y="-787.9" font-family="Courier New" font-size="14.00">COMMA </text>
+</g>
+<!-- state28&#45;&gt;state30 -->
+<g id="edge39" class="edge">
+<title>state28-&gt;state30</title>
+<path fill="none" stroke="black" d="M635,-935.01C635,-911.71 635,-887.89 635,-867.84"/>
+<polygon fill="black" stroke="black" points="638.5,-867.72 635,-857.72 631.5,-867.72 638.5,-867.72"/>
+<text text-anchor="middle" x="645.31" y="-904.2" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Ids </text>
+</g>
+<!-- state31 -->
+<g id="node32" class="node">
+<title>state31</title>
+<path fill="white" stroke="black" d="M837,-787.5C837,-787.5 1417,-787.5 1417,-787.5 1423,-787.5 1429,-793.5 1429,-799.5 1429,-799.5 1429,-833.5 1429,-833.5 1429,-839.5 1423,-845.5 1417,-845.5 1417,-845.5 837,-845.5 837,-845.5 831,-845.5 825,-839.5 825,-833.5 825,-833.5 825,-799.5 825,-799.5 825,-793.5 831,-787.5 837,-787.5"/>
+<polygon fill="white" stroke="transparent" points="833,-791.5 833,-841.5 1421,-841.5 1421,-791.5 833,-791.5"/>
+<polygon fill="black" stroke="transparent" points="835,-817.5 835,-839.5 1419,-839.5 1419,-817.5 835,-817.5"/>
+<text text-anchor="start" x="1089.19" y="-823.9" font-family="Courier New" font-size="14.00" fill="white">State #31</text>
+<text text-anchor="start" x="837.66" y="-799.9" font-family="Courier New" font-size="14.00">Item -&gt; LSQ ID DERSYM SentForm • COMMA LCUR Ids RCUR RSQ </text>
+<polygon fill="lightgrey" stroke="transparent" points="1338,-793.5 1338,-815.5 1419,-815.5 1419,-793.5 1338,-793.5"/>
+<text text-anchor="start" x="1340.69" y="-799.9" font-family="Courier New" font-size="14.00">LSQ RCUR </text>
+</g>
+<!-- state28&#45;&gt;state31 -->
+<g id="edge38" class="edge">
+<title>state28-&gt;state31</title>
+<path fill="none" stroke="black" d="M861.2,-935.17C930.94,-904.29 1002.82,-872.47 1054.21,-849.72"/>
+<polygon fill="black" stroke="black" points="1055.84,-852.83 1063.57,-845.58 1053.01,-846.43 1055.84,-852.83"/>
+<text text-anchor="middle" x="968.36" y="-904.2" font-family="Helvetica,Arial,sans-serif" font-size="14.00">SentForm </text>
+</g>
+<!-- state32 -->
+<g id="node33" class="node">
+<title>state32</title>
+<path fill="white" stroke="black" d="M147,-751.5C147,-751.5 433,-751.5 433,-751.5 439,-751.5 445,-757.5 445,-763.5 445,-763.5 445,-869.5 445,-869.5 445,-875.5 439,-881.5 433,-881.5 433,-881.5 147,-881.5 147,-881.5 141,-881.5 135,-875.5 135,-869.5 135,-869.5 135,-763.5 135,-763.5 135,-757.5 141,-751.5 147,-751.5"/>
+<polygon fill="white" stroke="transparent" points="143,-755.5 143,-877.5 437,-877.5 437,-755.5 143,-755.5"/>
+<polygon fill="black" stroke="transparent" points="145,-853.5 145,-875.5 435,-875.5 435,-853.5 145,-853.5"/>
+<text text-anchor="start" x="252.19" y="-859.9" font-family="Courier New" font-size="14.00" fill="white">State #32</text>
+<text text-anchor="start" x="148" y="-835.9" font-family="Courier New" font-size="14.00">Ids -&gt; • ID Ids </text>
+<polygon fill="lightgrey" stroke="transparent" points="379,-829.5 379,-851.5 435,-851.5 435,-829.5 379,-829.5"/>
+<text text-anchor="start" x="381.8" y="-835.9" font-family="Courier New" font-size="14.00">COMMA </text>
+<text text-anchor="start" x="148" y="-811.9" font-family="Courier New" font-size="14.00">SentForm -&gt; DOTSYM • </text>
+<polygon fill="lightgrey" stroke="transparent" points="379,-805.5 379,-827.5 435,-827.5 435,-805.5 379,-805.5"/>
+<text text-anchor="start" x="381.8" y="-811.9" font-family="Courier New" font-size="14.00">COMMA </text>
+<text text-anchor="start" x="147.58" y="-787.9" font-family="Courier New" font-size="14.00">SentForm -&gt; DOTSYM • Ids </text>
+<polygon fill="lightgrey" stroke="transparent" points="379,-781.5 379,-803.5 435,-803.5 435,-781.5 379,-781.5"/>
+<text text-anchor="start" x="381.8" y="-787.9" font-family="Courier New" font-size="14.00">COMMA </text>
+<text text-anchor="start" x="148" y="-763.9" font-family="Courier New" font-size="14.00">Ids -&gt; • ID </text>
+<polygon fill="lightgrey" stroke="transparent" points="379,-757.5 379,-779.5 435,-779.5 435,-757.5 379,-757.5"/>
+<text text-anchor="start" x="381.8" y="-763.9" font-family="Courier New" font-size="14.00">COMMA </text>
+</g>
+<!-- state28&#45;&gt;state32 -->
+<g id="edge37" class="edge">
+<title>state28-&gt;state32</title>
+<path fill="none" stroke="black" d="M476.38,-935.17C450.58,-918.87 424.35,-902.32 400.04,-886.97"/>
+<polygon fill="black" stroke="black" points="401.85,-883.97 391.53,-881.59 398.11,-889.89 401.85,-883.97"/>
+<text text-anchor="middle" x="472.31" y="-904.2" font-family="Helvetica,Arial,sans-serif" font-size="14.00">DOTSYM </text>
+</g>
+<!-- state29&#45;&gt;state29 -->
+<g id="edge42" class="edge">
+<title>state29-&gt;state29</title>
+<path fill="none" stroke="black" d="M523.24,-301.14C534.3,-298.34 541,-294.33 541,-289.1 541,-285.67 538.12,-282.76 533.01,-280.37"/>
+<polygon fill="black" stroke="black" points="533.83,-276.96 523.24,-277.06 531.58,-283.59 533.83,-276.96"/>
+<text text-anchor="middle" x="550.14" y="-284.9" font-family="Helvetica,Arial,sans-serif" font-size="14.00">ID </text>
+</g>
+<!-- state41 -->
+<g id="node42" class="node">
+<title>state41</title>
+<path fill="white" stroke="black" d="M199,-112.3C199,-112.3 511,-112.3 511,-112.3 517,-112.3 523,-118.3 523,-124.3 523,-124.3 523,-158.3 523,-158.3 523,-164.3 517,-170.3 511,-170.3 511,-170.3 199,-170.3 199,-170.3 193,-170.3 187,-164.3 187,-158.3 187,-158.3 187,-124.3 187,-124.3 187,-118.3 193,-112.3 199,-112.3"/>
+<polygon fill="white" stroke="transparent" points="195,-116.3 195,-166.3 515,-166.3 515,-116.3 195,-116.3"/>
+<polygon fill="black" stroke="transparent" points="197,-142.3 197,-164.3 513,-164.3 513,-142.3 197,-142.3"/>
+<text text-anchor="start" x="317.19" y="-148.7" font-family="Courier New" font-size="14.00" fill="white">State #41</text>
+<text text-anchor="start" x="199.89" y="-124.7" font-family="Courier New" font-size="14.00">Ids -&gt; ID Ids • </text>
+<polygon fill="lightgrey" stroke="transparent" points="356,-118.3 356,-140.3 513,-140.3 513,-118.3 356,-118.3"/>
+<text text-anchor="start" x="358.89" y="-124.7" font-family="Courier New" font-size="14.00">RCUR COMMA DOTSYM </text>
+</g>
+<!-- state29&#45;&gt;state41 -->
+<g id="edge41" class="edge">
+<title>state29-&gt;state41</title>
+<path fill="none" stroke="black" d="M355,-223.73C355,-209.04 355,-193.88 355,-180.69"/>
+<polygon fill="black" stroke="black" points="358.5,-180.57 355,-170.57 351.5,-180.57 358.5,-180.57"/>
+<text text-anchor="middle" x="365.31" y="-193" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Ids </text>
+</g>
+<!-- state39 -->
+<g id="node40" class="node">
+<title>state39</title>
+<path fill="white" stroke="black" d="M475,-567.7C475,-567.7 795,-567.7 795,-567.7 801,-567.7 807,-573.7 807,-579.7 807,-579.7 807,-685.7 807,-685.7 807,-691.7 801,-697.7 795,-697.7 795,-697.7 475,-697.7 475,-697.7 469,-697.7 463,-691.7 463,-685.7 463,-685.7 463,-579.7 463,-579.7 463,-573.7 469,-567.7 475,-567.7"/>
+<polygon fill="white" stroke="transparent" points="471,-571.7 471,-693.7 799,-693.7 799,-571.7 471,-571.7"/>
+<polygon fill="black" stroke="transparent" points="473,-669.7 473,-691.7 797,-691.7 797,-669.7 473,-669.7"/>
+<text text-anchor="start" x="597.19" y="-676.1" font-family="Courier New" font-size="14.00" fill="white">State #39</text>
+<text text-anchor="start" x="476" y="-652.1" font-family="Courier New" font-size="14.00">SentForm -&gt; Ids DOTSYM • </text>
+<polygon fill="lightgrey" stroke="transparent" points="741,-645.7 741,-667.7 797,-667.7 797,-645.7 741,-645.7"/>
+<text text-anchor="start" x="743.8" y="-652.1" font-family="Courier New" font-size="14.00">COMMA </text>
+<text text-anchor="start" x="476" y="-628.1" font-family="Courier New" font-size="14.00">Ids -&gt; • ID Ids </text>
+<polygon fill="lightgrey" stroke="transparent" points="741,-621.7 741,-643.7 797,-643.7 797,-621.7 741,-621.7"/>
+<text text-anchor="start" x="743.8" y="-628.1" font-family="Courier New" font-size="14.00">COMMA </text>
+<text text-anchor="start" x="475.78" y="-604.1" font-family="Courier New" font-size="14.00">SentForm -&gt; Ids DOTSYM • Ids </text>
+<polygon fill="lightgrey" stroke="transparent" points="741,-597.7 741,-619.7 797,-619.7 797,-597.7 741,-597.7"/>
+<text text-anchor="start" x="743.8" y="-604.1" font-family="Courier New" font-size="14.00">COMMA </text>
+<text text-anchor="start" x="476" y="-580.1" font-family="Courier New" font-size="14.00">Ids -&gt; • ID </text>
+<polygon fill="lightgrey" stroke="transparent" points="741,-573.7 741,-595.7 797,-595.7 797,-573.7 741,-573.7"/>
+<text text-anchor="start" x="743.8" y="-580.1" font-family="Courier New" font-size="14.00">COMMA </text>
+</g>
+<!-- state30&#45;&gt;state39 -->
+<g id="edge43" class="edge">
+<title>state30-&gt;state39</title>
+<path fill="none" stroke="black" d="M635,-775.15C635,-755.38 635,-730.93 635,-707.94"/>
+<polygon fill="black" stroke="black" points="638.5,-707.86 635,-697.86 631.5,-707.86 638.5,-707.86"/>
+<text text-anchor="middle" x="666.31" y="-720.4" font-family="Helvetica,Arial,sans-serif" font-size="14.00">DOTSYM </text>
+</g>
+<!-- state34 -->
+<g id="node35" class="node">
+<title>state34</title>
+<path fill="white" stroke="black" d="M837,-603.7C837,-603.7 1417,-603.7 1417,-603.7 1423,-603.7 1429,-609.7 1429,-615.7 1429,-615.7 1429,-649.7 1429,-649.7 1429,-655.7 1423,-661.7 1417,-661.7 1417,-661.7 837,-661.7 837,-661.7 831,-661.7 825,-655.7 825,-649.7 825,-649.7 825,-615.7 825,-615.7 825,-609.7 831,-603.7 837,-603.7"/>
+<polygon fill="white" stroke="transparent" points="833,-607.7 833,-657.7 1421,-657.7 1421,-607.7 833,-607.7"/>
+<polygon fill="black" stroke="transparent" points="835,-633.7 835,-655.7 1419,-655.7 1419,-633.7 835,-633.7"/>
+<text text-anchor="start" x="1089.19" y="-640.1" font-family="Courier New" font-size="14.00" fill="white">State #34</text>
+<text text-anchor="start" x="837.66" y="-616.1" font-family="Courier New" font-size="14.00">Item -&gt; LSQ ID DERSYM SentForm COMMA • LCUR Ids RCUR RSQ </text>
+<polygon fill="lightgrey" stroke="transparent" points="1338,-609.7 1338,-631.7 1419,-631.7 1419,-609.7 1338,-609.7"/>
+<text text-anchor="start" x="1340.69" y="-616.1" font-family="Courier New" font-size="14.00">LSQ RCUR </text>
+</g>
+<!-- state31&#45;&gt;state34 -->
+<g id="edge44" class="edge">
+<title>state31-&gt;state34</title>
+<path fill="none" stroke="black" d="M1127,-787.49C1127,-756.53 1127,-706.48 1127,-671.93"/>
+<polygon fill="black" stroke="black" points="1130.5,-671.74 1127,-661.74 1123.5,-671.74 1130.5,-671.74"/>
+<text text-anchor="middle" x="1155.98" y="-720.4" font-family="Helvetica,Arial,sans-serif" font-size="14.00">COMMA </text>
+</g>
+<!-- state32&#45;&gt;state29 -->
+<g id="edge46" class="edge">
+<title>state32-&gt;state29</title>
+<path fill="none" stroke="black" d="M170.13,-751.18C152.34,-736.23 136.49,-718.59 126,-698.2 99.38,-646.42 107.57,-622.43 126,-567.2 153.12,-485.92 217.02,-412.12 270.44,-361.16"/>
+<polygon fill="black" stroke="black" points="273.03,-363.53 277.9,-354.12 268.23,-358.44 273.03,-363.53"/>
+<text text-anchor="middle" x="149.14" y="-536.6" font-family="Helvetica,Arial,sans-serif" font-size="14.00">ID </text>
+</g>
+<!-- state33 -->
+<g id="node34" class="node">
+<title>state33</title>
+<path fill="white" stroke="black" d="M147,-603.7C147,-603.7 433,-603.7 433,-603.7 439,-603.7 445,-609.7 445,-615.7 445,-615.7 445,-649.7 445,-649.7 445,-655.7 439,-661.7 433,-661.7 433,-661.7 147,-661.7 147,-661.7 141,-661.7 135,-655.7 135,-649.7 135,-649.7 135,-615.7 135,-615.7 135,-609.7 141,-603.7 147,-603.7"/>
+<polygon fill="white" stroke="transparent" points="143,-607.7 143,-657.7 437,-657.7 437,-607.7 143,-607.7"/>
+<polygon fill="black" stroke="transparent" points="145,-633.7 145,-655.7 435,-655.7 435,-633.7 145,-633.7"/>
+<text text-anchor="start" x="252.19" y="-640.1" font-family="Courier New" font-size="14.00" fill="white">State #33</text>
+<text text-anchor="start" x="147.58" y="-616.1" font-family="Courier New" font-size="14.00">SentForm -&gt; DOTSYM Ids • </text>
+<polygon fill="lightgrey" stroke="transparent" points="379,-609.7 379,-631.7 435,-631.7 435,-609.7 379,-609.7"/>
+<text text-anchor="start" x="381.8" y="-616.1" font-family="Courier New" font-size="14.00">COMMA </text>
+</g>
+<!-- state32&#45;&gt;state33 -->
+<g id="edge45" class="edge">
+<title>state32-&gt;state33</title>
+<path fill="none" stroke="black" d="M290,-751.4C290,-724.81 290,-694.85 290,-671.81"/>
+<polygon fill="black" stroke="black" points="293.5,-671.75 290,-661.75 286.5,-671.75 293.5,-671.75"/>
+<text text-anchor="middle" x="300.31" y="-720.4" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Ids </text>
+</g>
+<!-- state35 -->
+<g id="node36" class="node">
+<title>state35</title>
+<path fill="white" stroke="black" d="M760,-407.9C760,-407.9 1340,-407.9 1340,-407.9 1346,-407.9 1352,-413.9 1352,-419.9 1352,-419.9 1352,-501.9 1352,-501.9 1352,-507.9 1346,-513.9 1340,-513.9 1340,-513.9 760,-513.9 760,-513.9 754,-513.9 748,-507.9 748,-501.9 748,-501.9 748,-419.9 748,-419.9 748,-413.9 754,-407.9 760,-407.9"/>
+<polygon fill="white" stroke="transparent" points="756,-411.9 756,-509.9 1344,-509.9 1344,-411.9 756,-411.9"/>
+<polygon fill="black" stroke="transparent" points="758,-485.9 758,-507.9 1342,-507.9 1342,-485.9 758,-485.9"/>
+<text text-anchor="start" x="1012.19" y="-492.3" font-family="Courier New" font-size="14.00" fill="white">State #35</text>
+<text text-anchor="start" x="761" y="-468.3" font-family="Courier New" font-size="14.00">Ids -&gt; • ID Ids </text>
+<polygon fill="lightgrey" stroke="transparent" points="1261,-461.9 1261,-483.9 1342,-483.9 1342,-461.9 1261,-461.9"/>
+<text text-anchor="start" x="1264" y="-468.3" font-family="Courier New" font-size="14.00">RCUR </text>
+<text text-anchor="start" x="760.66" y="-444.3" font-family="Courier New" font-size="14.00">Item -&gt; LSQ ID DERSYM SentForm COMMA LCUR • Ids RCUR RSQ </text>
+<polygon fill="lightgrey" stroke="transparent" points="1261,-437.9 1261,-459.9 1342,-459.9 1342,-437.9 1261,-437.9"/>
+<text text-anchor="start" x="1263.69" y="-444.3" font-family="Courier New" font-size="14.00">LSQ RCUR </text>
+<text text-anchor="start" x="761" y="-420.3" font-family="Courier New" font-size="14.00">Ids -&gt; • ID </text>
+<polygon fill="lightgrey" stroke="transparent" points="1261,-413.9 1261,-435.9 1342,-435.9 1342,-413.9 1261,-413.9"/>
+<text text-anchor="start" x="1264" y="-420.3" font-family="Courier New" font-size="14.00">RCUR </text>
+</g>
+<!-- state34&#45;&gt;state35 -->
+<g id="edge47" class="edge">
+<title>state34-&gt;state35</title>
+<path fill="none" stroke="black" d="M1114.29,-603.66C1104.38,-581.83 1090.27,-550.71 1077.79,-523.18"/>
+<polygon fill="black" stroke="black" points="1080.95,-521.67 1073.63,-514.01 1074.57,-524.56 1080.95,-521.67"/>
+<text text-anchor="middle" x="1108.42" y="-536.6" font-family="Helvetica,Arial,sans-serif" font-size="14.00">LCUR </text>
+</g>
+<!-- state35&#45;&gt;state29 -->
+<g id="edge49" class="edge">
+<title>state35-&gt;state29</title>
+<path fill="none" stroke="black" d="M836.75,-407.8C739.45,-384.03 625.54,-356.2 532.92,-333.57"/>
+<polygon fill="black" stroke="black" points="533.72,-330.16 523.17,-331.19 532.06,-336.96 533.72,-330.16"/>
+<text text-anchor="middle" x="753.14" y="-376.8" font-family="Helvetica,Arial,sans-serif" font-size="14.00">ID </text>
+</g>
+<!-- state36 -->
+<g id="node37" class="node">
+<title>state36</title>
+<path fill="white" stroke="black" d="M760,-260.1C760,-260.1 1340,-260.1 1340,-260.1 1346,-260.1 1352,-266.1 1352,-272.1 1352,-272.1 1352,-306.1 1352,-306.1 1352,-312.1 1346,-318.1 1340,-318.1 1340,-318.1 760,-318.1 760,-318.1 754,-318.1 748,-312.1 748,-306.1 748,-306.1 748,-272.1 748,-272.1 748,-266.1 754,-260.1 760,-260.1"/>
+<polygon fill="white" stroke="transparent" points="756,-264.1 756,-314.1 1344,-314.1 1344,-264.1 756,-264.1"/>
+<polygon fill="black" stroke="transparent" points="758,-290.1 758,-312.1 1342,-312.1 1342,-290.1 758,-290.1"/>
+<text text-anchor="start" x="1012.19" y="-296.5" font-family="Courier New" font-size="14.00" fill="white">State #36</text>
+<text text-anchor="start" x="760.66" y="-272.5" font-family="Courier New" font-size="14.00">Item -&gt; LSQ ID DERSYM SentForm COMMA LCUR Ids • RCUR RSQ </text>
+<polygon fill="lightgrey" stroke="transparent" points="1261,-266.1 1261,-288.1 1342,-288.1 1342,-266.1 1261,-266.1"/>
+<text text-anchor="start" x="1263.69" y="-272.5" font-family="Courier New" font-size="14.00">LSQ RCUR </text>
+</g>
+<!-- state35&#45;&gt;state36 -->
+<g id="edge48" class="edge">
+<title>state35-&gt;state36</title>
+<path fill="none" stroke="black" d="M1050,-407.57C1050,-382.05 1050,-351.9 1050,-328.54"/>
+<polygon fill="black" stroke="black" points="1053.5,-328.32 1050,-318.32 1046.5,-328.32 1053.5,-328.32"/>
+<text text-anchor="middle" x="1060.31" y="-376.8" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Ids </text>
+</g>
+<!-- state37 -->
+<g id="node38" class="node">
+<title>state37</title>
+<path fill="white" stroke="black" d="M760,-112.3C760,-112.3 1340,-112.3 1340,-112.3 1346,-112.3 1352,-118.3 1352,-124.3 1352,-124.3 1352,-158.3 1352,-158.3 1352,-164.3 1346,-170.3 1340,-170.3 1340,-170.3 760,-170.3 760,-170.3 754,-170.3 748,-164.3 748,-158.3 748,-158.3 748,-124.3 748,-124.3 748,-118.3 754,-112.3 760,-112.3"/>
+<polygon fill="white" stroke="transparent" points="756,-116.3 756,-166.3 1344,-166.3 1344,-116.3 756,-116.3"/>
+<polygon fill="black" stroke="transparent" points="758,-142.3 758,-164.3 1342,-164.3 1342,-142.3 758,-142.3"/>
+<text text-anchor="start" x="1012.19" y="-148.7" font-family="Courier New" font-size="14.00" fill="white">State #37</text>
+<text text-anchor="start" x="760.66" y="-124.7" font-family="Courier New" font-size="14.00">Item -&gt; LSQ ID DERSYM SentForm COMMA LCUR Ids RCUR • RSQ </text>
+<polygon fill="lightgrey" stroke="transparent" points="1261,-118.3 1261,-140.3 1342,-140.3 1342,-118.3 1261,-118.3"/>
+<text text-anchor="start" x="1263.69" y="-124.7" font-family="Courier New" font-size="14.00">LSQ RCUR </text>
+</g>
+<!-- state36&#45;&gt;state37 -->
+<g id="edge50" class="edge">
+<title>state36-&gt;state37</title>
+<path fill="none" stroke="black" d="M1050,-259.99C1050,-237.4 1050,-205.44 1050,-180.52"/>
+<polygon fill="black" stroke="black" points="1053.5,-180.33 1050,-170.33 1046.5,-180.33 1053.5,-180.33"/>
+<text text-anchor="middle" x="1070.81" y="-193" font-family="Helvetica,Arial,sans-serif" font-size="14.00">RCUR </text>
+</g>
+<!-- state38 -->
+<g id="node39" class="node">
+<title>state38</title>
+<path fill="white" stroke="black" d="M760,-0.5C760,-0.5 1340,-0.5 1340,-0.5 1346,-0.5 1352,-6.5 1352,-12.5 1352,-12.5 1352,-46.5 1352,-46.5 1352,-52.5 1346,-58.5 1340,-58.5 1340,-58.5 760,-58.5 760,-58.5 754,-58.5 748,-52.5 748,-46.5 748,-46.5 748,-12.5 748,-12.5 748,-6.5 754,-0.5 760,-0.5"/>
+<polygon fill="white" stroke="transparent" points="756,-4.5 756,-54.5 1344,-54.5 1344,-4.5 756,-4.5"/>
+<polygon fill="black" stroke="transparent" points="758,-30.5 758,-52.5 1342,-52.5 1342,-30.5 758,-30.5"/>
+<text text-anchor="start" x="1012.19" y="-36.9" font-family="Courier New" font-size="14.00" fill="white">State #38</text>
+<text text-anchor="start" x="760.66" y="-12.9" font-family="Courier New" font-size="14.00">Item -&gt; LSQ ID DERSYM SentForm COMMA LCUR Ids RCUR RSQ • </text>
+<polygon fill="lightgrey" stroke="transparent" points="1261,-6.5 1261,-28.5 1342,-28.5 1342,-6.5 1261,-6.5"/>
+<text text-anchor="start" x="1263.69" y="-12.9" font-family="Courier New" font-size="14.00">LSQ RCUR </text>
+</g>
+<!-- state37&#45;&gt;state38 -->
+<g id="edge51" class="edge">
+<title>state37-&gt;state38</title>
+<path fill="none" stroke="black" d="M1050,-112.02C1050,-98.83 1050,-82.93 1050,-68.69"/>
+<polygon fill="black" stroke="black" points="1053.5,-68.68 1050,-58.68 1046.5,-68.68 1053.5,-68.68"/>
+<text text-anchor="middle" x="1065.37" y="-81.2" font-family="Helvetica,Arial,sans-serif" font-size="14.00">RSQ </text>
+</g>
+<!-- state39&#45;&gt;state29 -->
+<g id="edge53" class="edge">
+<title>state39-&gt;state29</title>
+<path fill="none" stroke="black" d="M643.04,-567.46C645.63,-519.03 641.37,-453.33 608,-407.4 588.6,-380.69 561.58,-359.88 532.38,-343.73"/>
+<polygon fill="black" stroke="black" points="533.72,-340.48 523.25,-338.87 530.43,-346.66 533.72,-340.48"/>
+<text text-anchor="middle" x="651.14" y="-456.7" font-family="Helvetica,Arial,sans-serif" font-size="14.00">ID </text>
+</g>
+<!-- state40 -->
+<g id="node41" class="node">
+<title>state40</title>
+<path fill="white" stroke="black" d="M267,-431.9C267,-431.9 587,-431.9 587,-431.9 593,-431.9 599,-437.9 599,-443.9 599,-443.9 599,-477.9 599,-477.9 599,-483.9 593,-489.9 587,-489.9 587,-489.9 267,-489.9 267,-489.9 261,-489.9 255,-483.9 255,-477.9 255,-477.9 255,-443.9 255,-443.9 255,-437.9 261,-431.9 267,-431.9"/>
+<polygon fill="white" stroke="transparent" points="263,-435.9 263,-485.9 591,-485.9 591,-435.9 263,-435.9"/>
+<polygon fill="black" stroke="transparent" points="265,-461.9 265,-483.9 589,-483.9 589,-461.9 265,-461.9"/>
+<text text-anchor="start" x="389.19" y="-468.3" font-family="Courier New" font-size="14.00" fill="white">State #40</text>
+<text text-anchor="start" x="267.78" y="-444.3" font-family="Courier New" font-size="14.00">SentForm -&gt; Ids DOTSYM Ids • </text>
+<polygon fill="lightgrey" stroke="transparent" points="533,-437.9 533,-459.9 589,-459.9 589,-437.9 533,-437.9"/>
+<text text-anchor="start" x="535.8" y="-444.3" font-family="Courier New" font-size="14.00">COMMA </text>
+</g>
+<!-- state39&#45;&gt;state40 -->
+<g id="edge52" class="edge">
+<title>state39-&gt;state40</title>
+<path fill="none" stroke="black" d="M556.36,-567.51C526.78,-543.35 494.28,-516.82 469.25,-496.39"/>
+<polygon fill="black" stroke="black" points="471.36,-493.6 461.4,-489.99 466.94,-499.02 471.36,-493.6"/>
+<text text-anchor="middle" x="541.31" y="-536.6" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Ids </text>
+</g>
+<!-- state0 -->
+<g id="node1" class="node">
+<title>state0</title>
+<path fill="rgb(255, 255, 255)" stroke="black" d="M369.5,-3140.9C369.5,-3140.9 672.5,-3140.9 672.5,-3140.9 678.5,-3140.9 684.5,-3146.9 684.5,-3152.9 684.5,-3152.9 684.5,-3210.9 684.5,-3210.9 684.5,-3216.9 678.5,-3222.9 672.5,-3222.9 672.5,-3222.9 369.5,-3222.9 369.5,-3222.9 363.5,-3222.9 357.5,-3216.9 357.5,-3210.9 357.5,-3210.9 357.5,-3152.9 357.5,-3152.9 357.5,-3146.9 363.5,-3140.9 369.5,-3140.9"/>
+<polygon fill="black" stroke="transparent" points="368,-3194.9 368,-3216.9 675,-3216.9 675,-3194.9 368,-3194.9"/>
+<text text-anchor="start" x="487.89" y="-3201.3" font-family="Courier New" font-size="14.00" fill="rgb(255, 255, 255)">State #0</text><polygon fill="white" stroke="transparent" points="365.5,-3144.9 365.5,-3218.9 676.5,-3218.9 676.5,-3144.9 365.5,-3144.9"/>
+
+<text text-anchor="start" x="371" y="-3177.3" font-family="Courier New" font-size="14.00">$START -&gt; • StartState EOF </text>
+<polygon fill="lightgrey" stroke="transparent" points="636,-3170.9 636,-3192.9 675,-3192.9 675,-3170.9 636,-3170.9"/>
+<text text-anchor="start" x="638.7" y="-3177.3" font-family="Courier New" font-size="14.00">EOF </text>
+<text text-anchor="start" x="370.78" y="-3153.3" font-family="Courier New" font-size="14.00">StartState -&gt; • START States </text>
+<polygon fill="lightgrey" stroke="transparent" points="636,-3146.9 636,-3168.9 675,-3168.9 675,-3146.9 636,-3146.9"/>
+<text text-anchor="start" x="638.7" y="-3153.3" font-family="Courier New" font-size="14.00">EOF </text>
+</g>
+<!-- state0&#45;&gt;state1 -->
+<g id="edge2" class="edge">
+<title>state0-&gt;state1</title>
+<path fill="none" stroke="black" d="M460.18,-3140.87C415.72,-3111.61 356.1,-3072.37 314.09,-3044.73"/>
+<polygon fill="black" stroke="black" points="315.95,-3041.76 305.67,-3039.19 312.1,-3047.61 315.95,-3041.76"/>
+<text text-anchor="middle" x="458.97" y="-3109.8" font-family="Helvetica,Arial,sans-serif" font-size="14.00">StartState </text>
+</g>
+<!-- state0&#45;&gt;state2 -->
+<g id="edge1" class="edge">
+<title>state0-&gt;state2</title>
+<path fill="none" stroke="black" d="M632.5,-3140.87C674.49,-3125.8 723.86,-3108.08 772.39,-3090.65"/>
+<polygon fill="black" stroke="black" points="773.86,-3093.85 782.08,-3087.17 771.49,-3087.26 773.86,-3093.85"/>
+<text text-anchor="middle" x="752.92" y="-3109.8" font-family="Helvetica,Arial,sans-serif" font-size="14.00">START </text>
+</g>
+</g>
+</svg>

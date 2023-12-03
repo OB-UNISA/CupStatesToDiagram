@@ -1,0 +1,58 @@
+START lalr_state [0]: {
+  [C ::= (*) c C , {c d }]
+  [$START ::= (*) S EOF , {EOF }]
+  [C ::= (*) d , {c d }]
+  [S ::= (*) C C , {EOF }]
+}
+transition on c to state [4]
+transition on d to state [3]
+transition on C to state [2]
+transition on S to state [1]
+
+-------------------
+lalr_state [1]: {
+  [$START ::= S (*) EOF , {EOF }]
+}
+transition on EOF to state [7]
+
+-------------------
+lalr_state [2]: {
+  [C ::= (*) c C , {EOF }]
+  [C ::= (*) d , {EOF }]
+  [S ::= C (*) C , {EOF }]
+}
+transition on c to state [4]
+transition on d to state [3]
+transition on C to state [6]
+
+-------------------
+lalr_state [3]: {
+  [C ::= d (*) , {EOF c d }]
+}
+
+-------------------
+lalr_state [4]: {
+  [C ::= c (*) C , {EOF c d }]
+  [C ::= (*) c C , {EOF c d }]
+  [C ::= (*) d , {EOF c d }]
+}
+transition on c to state [4]
+transition on C to state [5]
+transition on d to state [3]
+
+-------------------
+lalr_state [5]: {
+  [C ::= c C (*) , {EOF c d }]
+}
+
+-------------------
+lalr_state [6]: {
+  [S ::= C C (*) , {EOF }]
+}
+
+-------------------
+lalr_state [7]: {
+  [$START ::= S EOF (*) , {EOF }]
+}
+
+-------------------

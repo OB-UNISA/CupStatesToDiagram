@@ -1,0 +1,63 @@
+package main;
+import main.ast.*;
+import java.util.ArrayList;
+
+terminal START, LALRWRD, COLON, LSQ, RSQ, LCUR, RCUR, DERSYM, COMMA, DOTSYM, TRANWRD,
+STATEWRD, SEP;
+terminal Integer ID;
+terminal String SNUM;
+
+nonterminal StartStateNode StartState;
+nonterminal StatesNode States;
+nonterminal StateNode State;
+nonterminal ItemsNode Items;
+nonterminal ItemNode Item;
+nonterminal TransNode Trans;
+nonterminal TranNode Tran;
+nonterminal SentFormNode SentForm;
+nonterminal ArrayList<Integer> Ids;
+
+
+StartState ::= START States:s
+               {: RESULT = new StartStateNode(s); :}
+;
+States ::= State:s States:ss
+           {: RESULT = new StatesNode(s, ss); :}
+         | State:s
+           {: RESULT = new StatesNode(s); :}
+;
+State ::= LALRWRD LSQ SNUM:n RSQ COLON LCUR Items:i RCUR Trans:t SEP
+          {: RESULT = new StateNode(n, i, t); :}
+        | LALRWRD LSQ SNUM:n RSQ COLON LCUR Items:i RCUR SEP /* Items complete */
+          {: RESULT = new StateNode(n, i); :}
+;
+Items ::= Item:i Items:ii
+          {: RESULT = new ItemsNode(i, ii); :}
+        | Item:i
+          {: RESULT = new ItemsNode(i); :}
+;
+Item ::= LSQ ID:nt DERSYM SentForm:sf COMMA LCUR Ids:fs RCUR RSQ
+         {: RESULT = new ItemNode(nt, sf, fs); :}
+;
+SentForm ::= DOTSYM Ids:i
+             {: RESULT = new SentFormNode(DotSymPos.BEGIN, i); :}
+           | Ids:i DOTSYM
+             {: RESULT = new SentFormNode(DotSymPos.END, i); :}
+           | Ids:i1 DOTSYM Ids:i2
+             {: RESULT = new SentFormNode(i1, i2); :}
+           | DOTSYM /* this happens with empty productions */
+             {: RESULT = new SentFormNode(); :}
+;
+Ids ::= ID:i Ids:ii
+        {: RESULT = new ArrayList<>(); RESULT.add(i); RESULT.addAll(ii); :}
+      | ID:i
+        {: RESULT = new ArrayList<>(); RESULT.add(i); :}
+;
+Trans ::= Tran:t Trans:tt
+          {: RESULT = new TransNode(t, tt); :}
+        | Tran:t
+          {: RESULT = new TransNode(t); :}
+;
+Tran ::= TRANWRD ID:i STATEWRD LSQ SNUM:n RSQ
+         {: RESULT = new TranNode(i, n); :}
+;

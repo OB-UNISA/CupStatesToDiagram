@@ -1,0 +1,18 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="LexerTester_input3" type="Application" factoryName="Application">
+    <option name="ALTERNATIVE_JRE_PATH" value="17" />
+    <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+    <option name="MAIN_CLASS_NAME" value="main.LexerTester" />
+    <module name="CupStatesToDiagram" />
+    <option name="PROGRAM_PARAMETERS" value="$ProjectFileDir$ input3.txt" />
+    <extension name="coverage">
+      <pattern>
+        <option name="PATTERN" value="main.*" />
+        <option name="ENABLED" value="true" />
+      </pattern>
+    </extension>
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
